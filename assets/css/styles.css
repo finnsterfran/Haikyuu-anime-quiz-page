@@ -41,7 +41,7 @@ header h6 {
     padding-bottom: 6px;
 }
 
-/* Panels */
+/* Panels Inactive-state */
 .container {
     display: flex;
     width: 100%;
@@ -61,4 +61,79 @@ header h6 {
     margin: 30px 10px;
     transition: flex 0.5s ease-in;
     cursor: pointer;
+}
+
+.btn { 
+    margin: 0;
+    opacity: 0;
+}
+
+.panel h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    top: 10px;
+    margin: auto;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.panel p {
+    margin: 0;
+    opacity: 0;
+    width: 10px;
+}
+
+/* Panels Active-state */
+.panel.active {
+    flex: 7;
+    opacity: 1;
+    transition: transform 1.2s;
+    cursor: not-allowed;
+}
+.panel.active h3 {
+    writing-mode: horizontal-tb;
+    text-orientation: none;
+    margin: 20px 50px;
+    transition: flex 0.6 ease-in;
+    font-size: 1.8rem;
+}
+.panel.active .btn {
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    border-radius: 0 0 20px 20px;
+    border: none;
+    font-size: 2rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.panel.active p {
+    opacity: 1;
+    margin: auto;
+    padding: 65px 50px 10px;
+    line-height: 2;
+    width: 80%;
+    color: black;
+    font-weight: 700;
+}
+
+.panel.active span {
+    font-weight: bolder;
+    color: darkslateblue;
+}
+
+.panel.active > .teamTextBox {
+    opacity: 0.8;
+    border-radius: 10px;
+    height: 65%;
+    width: 90%;
+    margin: auto;
+    padding-top: 13px;
+    background-color: whitesmoke;
 }
