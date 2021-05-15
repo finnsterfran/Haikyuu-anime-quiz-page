@@ -133,20 +133,105 @@ let karasunohtml = [
 karasunoBtn.onclick = function buttonClicked() {
     karaTextBox.innerHTML = karasunohtml[clicks];
     clicks +=1;
-    if(clicks === karasunohtml.length) {
+    if(clicks == karasunohtml.length + 1) {
         karaTextBox.classList.add('teamTextBox');
         karaTextBox.innerHTML = `<p>Karasuno is a high school located in Miyagi Prefecture. In the old days under the guidance of Coach Ukai Ikkei, Karasuno represented the prefecture at the Spring High nationals nine times. For five years, the team failed to make it pass any prelimary, earning them the nicknames "The Flightless Crows". </p>
         <a href="./karasuno.html" class="pageBtn" style="background-color:black; color:var(--karasuno-color);">Karasuno Quiz</a>`;
-        resetButton();
+        resetKarasuno();
     }
 };
 
-function resetButton() {
+function resetKarasuno() {
     document.querySelector('.click-kara').setAttribute("onclick", "location.reload()");
     document.querySelector('.click-kara').innerHTML = `<i class="fas fa-redo"></i> Reload`;
 };
 
 // Nekoma Panel to load player cards //
+const nekomaBtn = document.querySelector('.click-neko');
+const nekoTextBox = document.getElementById('text-neko');
+
+const nekomahtml = [
+    `<div class="card-container">
+    <img src="./assets/images/neko-img/kuroo-small.jpg">
+    <h4>Kuroo Tetsurō</h4>
+    <h5>Captain/Middle Blocker</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 1</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/neko-img/kai-small.jpg">
+    <h4>Kai Nobuyuki</h4>
+    <h5>Vice Captain/Opposite Hitter</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 2</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/neko-img/yaku-small.jpg">
+    <h4>Yaku Morisuke</h4>
+    <h5>Libero</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 3</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/neko-img/yamamoto-small.jpg">
+    <h4>Yamamoto Taketora</h4>
+    <h5>Ace/Wing Spike/Outside Hitter</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 4</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/neko-img/kenma-small.jpg">
+    <h4>Kozume Kenma</h4>
+    <h5>Setter</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 5</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/neko-img/fukunaga-small.jpg">
+    <h4>Fukunaga Shōhei</h4>
+    <h5>Wing Spike/Outside Hitter</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 6</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/neko-img/inuoka-small.jpg">
+    <h4>Inouka Sō</h4>
+    <h5>Wing Spiker/Opposite Hitter</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 7</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/neko-img/lev-small.jpg">
+    <h4>Haiba Lev</h4>
+    <h5>Middle Block</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 11</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/neko-img/shibayama-small.jpg">
+    <h4>Shibayama Yūki</h4>
+    <h5>Libero</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 12</h5></div>`,
+
+];
+
+nekomaBtn.onclick = function buttonClicked() {
+    nekoTextBox.innerHTML = nekomahtml[clicks];
+    clicks +=1;
+    if(clicks === nekomahtml.length + 1) {
+        nekoTextBox.classList.add('teamTextBox');
+        nekoTextBox.innerHTML = `<p>Nekoma is a high school located in Tokyo Prefecture, and are a long time rival of Karasuno. In the old days, under the guidance of Coach Nekomata and the old Karasuno Coach Ukai Ikkei, when these two teams would meet up in official matches, it was known as Battle of the Dumpster. Nekoma is famous for their all-round defense, of which Karasuno has never been able to penetrate.</p>
+        <a href="./nekoma.html" class="pageBtn" style="background-color: var(--nekoma-color); color: white;">Nekoma Quiz</a>`;
+        resetNekoma();
+    }
+};
+
+function resetNekoma() {
+    document.querySelector('.click-neko').setAttribute("onclick", "location.reload()");
+    document.querySelector('.click-neko').innerHTML = `<i class="fas fa-redo"></i> Reload`;
+};
+
 // Datekogyo Panel to load player cards //
 // Aoba Josai Panel to load player cards //
 // Shiratorizawa Panel to load player cards //
