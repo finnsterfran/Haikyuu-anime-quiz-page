@@ -1,0 +1,64 @@
+/* Colors */
+:root {
+    --page-color: whitesmoke;
+    --karasuno-color: #ff8303;
+    --nekoma-color: #EC4646;
+    --datekogyo-color: #34656D;
+    --aobajosai-color: #A8E6CF;
+    --shiratorizawa-color: #95389E;
+    --fukurodani-color: #31326F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--page-color);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: darkslategray;
+    margin: 0;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+header h6 {
+    font-size: 1rem;
+    padding-bottom: 6px;
+}
+
+/* Panels */
+.container {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+}
+
+.panel {
+    background-size: cover;
+    background-position: cover center;
+    background-repeat: no-repeat;
+    box-shadow: 10px 5px 4px gray;
+    height: 70vh;
+    position: relative;
+    flex: 0.5;
+    border-radius: 20px;
+    margin: 30px 10px;
+    transition: flex 0.5s ease-in;
+    cursor: pointer;
+}
