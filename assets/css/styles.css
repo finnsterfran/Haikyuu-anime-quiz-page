@@ -86,6 +86,28 @@ header h6 {
     width: 10px;
 }
 
+.pageBtn {
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+#info {
+    padding-top: 50px;
+}
+
+.teamTextBox {
+    width: 10px;
+}
+
 /* Panels Active-state */
 .panel.active {
     flex: 7;
@@ -131,9 +153,68 @@ header h6 {
 .panel.active > .teamTextBox {
     opacity: 0.8;
     border-radius: 10px;
-    height: 65%;
+    height: 70%;
     width: 90%;
     margin: auto;
-    padding-top: 13px;
+    padding-top: 25px;
     background-color: whitesmoke;
+}
+.panel.active > .teamTextBox > p {
+    margin-top: 50px;
+}
+
+.panel.active .card-container {
+    opacity: 1;
+    border-radius: 10px;
+    height: 100%;
+    width: 450px;
+    margin: 50px auto;
+    
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px 3px 4px gray;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Player Cards */
+
+.card-container {
+    opacity: 0;
+    width: 10px;
+}
+
+.text-box {
+    height: 65%;
+   
+}
+
+img {
+    margin: auto;
+    justify-content: center;
+    display: block;
+    padding: 20px;
+}
+
+h4, 
+h5 {
+    margin: 20px 40px;
+    display: block;
+    line-height: 1.5px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    color: black;
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+/* Footer */
+.social {
+    text-align: center;
+}
+.social h6 {
+    font-size: 0.9rem;
+    padding: 10px;
 }

@@ -37,3 +37,117 @@ changeBtn.onclick = function buttonClicked() {
         <button class="btn reload-info" onclick="location.reload()"><i class="fas fa-redo"></i> Reload</button>`;
     };
 };
+
+// Karasuno Panel to load player cards // 
+const karasunoBtn = document.querySelector('.click-kara');
+const karaTextBox = document.getElementById('text-kara');
+
+let karasunohtml = [
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/daichi-small.jpg">
+    <h4>Sawamura Daichi</h4>
+    <h5>Captain/Opposite Hitter</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 1</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/sugawara-small.jpg">
+    <h4>Sugawara Kōshi</h4>
+    <h5>Vice Captain/Setter/Pinch Server</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 2</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/asahi-small.jpg">
+    <h4>Azumane Asahi</h4>
+    <h5>Ace/Outside Hitter</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 3</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/nishinoya-small.jpg">
+    <h4>Nishinoya Yū</h4>
+    <h5>Libero</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 4</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/tanaka-small.jpg">
+    <h4>Tanaka Ryūnosuke</h4>
+    <h5>Outside Hitter</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 5</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/ennoshita-small.jpg">
+    <h4>Ennoshita Chikara</h4>
+    <h5>Outside Hitter</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 6</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/kinoshita-small.jpg">
+    <h4>Kinoshita Hisashi</h4>
+    <h5>Wing Spiker/Pinch Server</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 7</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/narita-small.jpg">
+    <h4>Narita Kazuhito</h4>
+    <h5>Middle Blocker</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 8</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/kageyama-small.jpg">
+    <h4>Kageyama Tobio</h4>
+    <h5>Setter</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 9</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/hinata-small.jpg">
+    <h4>Hinata Shōyō</h4>
+    <h5>Middle Blocker</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 10</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/tsukishima-small.jpg">
+    <h4>Tsukishima Kei</h4>
+    <h5>Middle Blocker</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 11</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/kara-img/yamaguchi-small.jpg">
+    <h4>Yamaguchi Tadashi</h4>
+    <h5>Middle Blocker/Pinch Server</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 12</h5></div>`,
+
+];
+
+karasunoBtn.onclick = function buttonClicked() {
+    karaTextBox.innerHTML = karasunohtml[clicks];
+    clicks +=1;
+    if(clicks === karasunohtml.length) {
+        karaTextBox.classList.add('teamTextBox');
+        karaTextBox.innerHTML = `<p>Karasuno is a high school located in Miyagi Prefecture. In the old days under the guidance of Coach Ukai Ikkei, Karasuno represented the prefecture at the Spring High nationals nine times. For five years, the team failed to make it pass any prelimary, earning them the nicknames "The Flightless Crows". </p>
+        <a href="./karasuno.html" class="pageBtn" style="background-color:black; color:var(--karasuno-color);">Karasuno Quiz</a>`;
+        resetButton();
+    }
+};
+
+function resetButton() {
+    document.querySelector('.click-kara').setAttribute("onclick", "location.reload()");
+    document.querySelector('.click-kara').innerHTML = `<i class="fas fa-redo"></i> Reload`;
+};
+
+// Nekoma Panel to load player cards //
+// Datekogyo Panel to load player cards //
+// Aoba Josai Panel to load player cards //
+// Shiratorizawa Panel to load player cards //
+// Fukurodani Panel to load player cards //
