@@ -233,6 +233,76 @@ function resetNekoma() {
 };
 
 // Datekogyo Panel to load player cards //
+const datekogyoBtn = document.querySelector('.click-date');
+const dateTextBox = document.getElementById('text-date');
+
+const datekogyohtml = [
+    `<div class="card-container">
+    <img src="./assets/images/date-img/aone-small.jpg">
+    <h4>Aone Takanobu</h4>
+    <h5>Middle Blocker</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 1</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/date-img/Futakuchi.jpg">
+    <h4>Futakuchi Kenji</h4>
+    <h5>Captain/Ace/Outside Hitter</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 2</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/date-img/obara-small.jpg">
+    <h4>Obara Yutaka</h4>
+    <h5>Wing Spiker</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 3</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/date-img/koganegawa-small.jpg">
+    <h4>Koganegawa Kanji</h4>
+    <h5>Setter</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 7</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/date-img/onagawa-small.jpg">
+    <h4>Onagawa Tarō</h4>
+    <h5>Wing Spike/Opposite Hitter</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 8</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/date-img/fukiage-small.jpg">
+    <h4>Fukiage Jingo</h4>
+    <h5>Middle Blocker</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 11</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/date-img/sakunami-small.jpg">
+    <h4>Sakunami Kōsuke</h4>
+    <h5>Libero</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 13</h5></div>`,
+];
+
+datekogyoBtn.onclick = function buttonClicked() {
+    dateTextBox.innerHTML = datekogyohtml[clicks];
+    clicks +=1;
+    if(clicks === datekogyohtml.length + 1) {
+        dateTextBox.classList.add('teamTextBox');
+        dateTextBox.innerHTML = `<p>Datekōgyō is a highschool in the Miyagi prefecture and are known for their almost impenetrable three men block.</p>
+        <a href="./datekogyo.html" class="pageBtn" style="background-color: var(--datekogyo-color); color: white;">Datekōgyō Quiz</a>`;
+        resetDatekogyo();
+    }
+};
+
+function resetDatekogyo() {
+    document.querySelector('.click-date').setAttribute("onclick", "location.reload()");
+    document.querySelector('.click-date').innerHTML = `<i class="fas fa-redo"></i> Reload`;
+};
+
 // Aoba Josai Panel to load player cards //
 // Shiratorizawa Panel to load player cards //
 // Fukurodani Panel to load player cards //
