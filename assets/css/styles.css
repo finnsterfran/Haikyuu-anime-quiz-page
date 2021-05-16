@@ -155,12 +155,12 @@ header h6 {
     border-radius: 10px;
     height: 70%;
     width: 90%;
-    margin: auto;
+    margin: 40px auto;
     padding-top: 25px;
     background-color: whitesmoke;
 }
 .panel.active > .teamTextBox > p {
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .panel.active .card-container {
@@ -168,7 +168,7 @@ header h6 {
     border-radius: 10px;
     height: 100%;
     width: 450px;
-    margin: 50px auto;
+    margin: 40px auto;
     
     background-color: rgb(240, 240, 240);
     box-shadow: 5px 3px 4px gray;

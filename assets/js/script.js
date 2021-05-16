@@ -13,6 +13,7 @@ function removeActiveClasses() {
     panels.forEach(panel => {
         panel.classList.remove('active');
     })
+    
 };
 
 // Information // 
@@ -304,5 +305,178 @@ function resetDatekogyo() {
 };
 
 // Aoba Josai Panel to load player cards //
+const aobajosaiBtn = document.querySelector('.click-aoba');
+const aobaTextBox = document.getElementById('text-aoba');
+
+const aobajosaihtml = [
+
+    `<div class="card-container">
+    <img src="./assets/images/aoba-img/oikawa-small.jpg">
+    <h4>Oikawa Tōru</h4>
+    <h5>Captain/Setter</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 1</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/aoba-img/matsukawa-small.jpg">
+    <h4>Matsukawa Issei</h4>
+    <h5>Middle Blocker</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 2</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/aoba-img/hanamaki-small.jpg">
+    <h4>Hanamaki Takahiro</h4>
+    <h5>Wing Spiker/Outside Hitter</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 3</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/aoba-img/iwachan-small.jpg">
+    <h4>Iwaizumi Hajime</h4>
+    <h5>Vice Captain/Wing Spiker/Ace</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 4</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/aoba-img/yahaba-small.jpg">
+    <h4>Yahaba Shigeru</h4>
+    <h5>Setter/Pinch Serverr</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 6</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/aoba-img/watari-small.jpg">
+    <h4>Watari Shinji</h4>
+    <h5>Libero</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 7</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/aoba-img/kindaichi-small.jpg">
+    <h4>Kindaichi Yūtarō</h4>
+    <h5>Middle Blocker</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 12</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/aoba-img/kunimi-small.jpg">
+    <h4>Kunimi Akira</h4>
+    <h5>Wing Spiker/Opposite Hitter</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 13</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/aoba-img/kyotani-small.jpg">
+    <h4>Kyōtani Kentarō</h4>
+    <h5>Wing Spiker</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 16</h5></div>`,
+];
+
+aobajosaiBtn.onclick = function buttonClicked() {
+    aobaTextBox.innerHTML = aobajosaihtml[clicks];
+    clicks +=1;
+    if(clicks === aobajosaihtml.length + 1) {
+        aobaTextBox.classList.add('teamTextBox');
+        aobaTextBox.innerHTML = `<p>Aoba Josai, also known as Seijoh, is a highschool in Miyagi prefecture. The volleyball team is ranked top four in the prefecture, most of the team players graduated from Kitagawa Daiichi Junior High. Oikawa Tōru is the team's setter but can play several different positions as well. He is the most well-rounded player in Haikyū.</p>
+        <a href="./aobajosai.html" class="pageBtn" style="background-color: var(--aobajosai-color); color: black;">Aoba Jōsai Quiz</a>`;
+        resetAobajosai();
+    }
+};
+
+function resetAobajosai() {
+    document.querySelector('.click-aoba').setAttribute("onclick", "location.reload()");
+    document.querySelector('.click-aoba').innerHTML = `<i class="fas fa-redo"></i> Reload`;
+};
+
+
+
+
 // Shiratorizawa Panel to load player cards //
+const shiratorizawaBtn = document.querySelector('.click-shira');
+const shiraTextBox = document.getElementById('text-shira');
+
+const shiratorizawahtml = [
+    `<div class="card-container">
+    <img src="./assets/images/shira-img/ushijima-small.jpg">
+    <h4>Ushijima Wakatoshi</h4>
+    <h5>Ace/Captain/Opposite Hitter</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 1</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/shira-img/ohira-small.jpg">
+    <h4>Ōhira Reon</h4>
+    <h5>Outside Hitter</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 4</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/shira-img/tendo-small.jpg">
+    <h4>Tendo Satori</h4>
+    <h5>Middle Blocker</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 5</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/shira-img/goshiki-small.jpg">
+    <h4>Goshiki Tsutomu</h4>
+    <h5>Outside Hitter</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 8</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/shira-img/shirabu-small.jpg">
+    <h4>Shirabu Kenjirō</h4>
+    <h5>Setter</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 10</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/shira-img/kawanishi-small.jpg">
+    <h4>Kawanishi Taichi</h4>
+    <h5>Middle Blocker</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 12</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/shira-img/yamagata-small.jpg">
+    <h4>Yamagata Hayato</h4>
+    <h5>Libero</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 14</h5></div>`,
+];
+shiratorizawaBtn.onclick = function buttonClicked() {
+    shiraTextBox.innerHTML = shiratorizawahtml[clicks];
+    clicks +=1;
+    if(clicks === shiratorizawahtml.length + 1) {
+        shiraTextBox.classList.add('teamTextBox');
+        shiraTextBox.innerHTML = `<p>Shiratorizawa has the most powerful volleyball team in the Miyagi prefecture and is ranked in the top 8 in all Japan. The team's strategy is to suppose the Ace, Ushijima Wakatoshi, who is nationally ranked #3.</p>
+        <a href="./shiratorizawa.html" class="pageBtn" style="background-color: var(--shiratorizawa-color); color: white;">Shiratorizawa Quiz</a>`;
+        resetShiratorizawa();
+    }
+};
+
+function resetShiratorizawa() {
+    document.querySelector('.click-shira').setAttribute("onclick", "location.reload()");
+    document.querySelector('.click-shira').innerHTML = `<i class="fas fa-redo"></i> Reload`;
+};
+
 // Fukurodani Panel to load player cards //
+const fukurodaniBtn = document.querySelector('.click-fuku');
+const fukuTextBox = document.getElementById('text-fuku');
+
+const fukurodanihtml = [
+
+];
+
+fukurodaniBtn.onclick = function buttonClicked() {
+    fukurodaniBtn.innerHTML = fukurodanihtml[clicks];
+    clicks +=1;
+    if(clicks === fukurodanihtml.length + 1) {
+        fukuTextBox.classList.add('teamTextBox');
+        fukuTextBox.innerHTML = `<p>Fukurodani is </p>
+        `
+    }
+}
