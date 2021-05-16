@@ -13,7 +13,7 @@ function removeActiveClasses() {
     panels.forEach(panel => {
         panel.classList.remove('active');
     })
-    
+   
 };
 
 // Information // 
@@ -223,7 +223,7 @@ nekomaBtn.onclick = function buttonClicked() {
     if(clicks === nekomahtml.length + 1) {
         nekoTextBox.classList.add('teamTextBox');
         nekoTextBox.innerHTML = `<p>Nekoma is a high school located in Tokyo Prefecture, and are a long time rival of Karasuno. In the old days, under the guidance of Coach Nekomata and the old Karasuno Coach Ukai Ikkei, when these two teams would meet up in official matches, it was known as Battle of the Dumpster. Nekoma is famous for their all-round defense, of which Karasuno has never been able to penetrate.</p>
-        <a href="./nekoma.html" class="pageBtn" style="background-color: var(--nekoma-color); color: white;">Nekoma Quiz</a>`;
+        <a href="./nekoma.html" class="pageBtn" style="background-color: var(--nekoma-color); color: black;">Nekoma Quiz</a>`;
         resetNekoma();
     }
 };
@@ -294,7 +294,7 @@ datekogyoBtn.onclick = function buttonClicked() {
     if(clicks === datekogyohtml.length + 1) {
         dateTextBox.classList.add('teamTextBox');
         dateTextBox.innerHTML = `<p>Datekōgyō is a highschool in the Miyagi prefecture and are known for their almost impenetrable three men block.</p>
-        <a href="./datekogyo.html" class="pageBtn" style="background-color: var(--datekogyo-color); color: white;">Datekōgyō Quiz</a>`;
+        <a href="./datekogyo.html" class="pageBtn" style="background-color: var(--datekogyo-color); color: black;">Datekōgyō Quiz</a>`;
         resetDatekogyo();
     }
 };
@@ -447,6 +447,7 @@ const shiratorizawahtml = [
     <h5>Third Year</h5>
     <h5>Jersey Number 14</h5></div>`,
 ];
+
 shiratorizawaBtn.onclick = function buttonClicked() {
     shiraTextBox.innerHTML = shiratorizawahtml[clicks];
     clicks +=1;
@@ -464,19 +465,75 @@ function resetShiratorizawa() {
 };
 
 // Fukurodani Panel to load player cards //
+
 const fukurodaniBtn = document.querySelector('.click-fuku');
 const fukuTextBox = document.getElementById('text-fuku');
 
 const fukurodanihtml = [
+    
+    `<div class="card-container">
+    <img src="./assets/images/fuku-img/washio-small.jpg">
+    <h4>Washio Tatsuki</h4>
+    <h5>Middle Blocker</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 2</h5></div>`,
 
+    `<div class="card-container">
+    <img src="./assets/images/fuku-img/sarukui-small.jpg">
+    <h4>Sarukui Yamato</h4>
+    <h5>Outside Hitter</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 3</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/fuku-img/bokuto-small.jpg">
+    <h4>Bokuto Kōtarō</h4>
+    <h5>Ace/Captain/Outside Hitter</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 4</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/fuku-img/akaashi-small.jpg">
+    <h4>Akaashi Keiji</h4>
+    <h5>Vice Captain/Setter</h5>
+    <h5>Second Year</h5>
+    <h5>Jersey Number 5</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/fuku-img/konoha-small.jpg">
+    <h4>Konoha Akinori</h4>
+    <h5>Opposite Hitter</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 7</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/fuku-img/komi-small.jpg">
+    <h4>Komi Haruki</h4>
+    <h5>Liberor</h5>
+    <h5>Third Year</h5>
+    <h5>Jersey Number 11</h5></div>`,
+
+    `<div class="card-container">
+    <img src="./assets/images/fuku-img/onaga-small.jpg">
+    <h4>Onaga Wataru</h4>
+    <h5>Middle Blocker</h5>
+    <h5>First Year</h5>
+    <h5>Jersey Number 12</h5></div>`,
 ];
 
 fukurodaniBtn.onclick = function buttonClicked() {
-    fukurodaniBtn.innerHTML = fukurodanihtml[clicks];
+    fukuTextBox.innerHTML = fukurodanihtml[clicks];
     clicks +=1;
     if(clicks === fukurodanihtml.length + 1) {
         fukuTextBox.classList.add('teamTextBox');
-        fukuTextBox.innerHTML = `<p>Fukurodani is </p>
-        `
+        fukuTextBox.innerHTML = `<p>Fukurōdani is a highschool in the Tokyo prefecture and the volleyball team ranks top four in that region. The volleyball team holds practice matches and summer training camps with the other highschool volleyball teams in the Kanto region.</p>
+        <a href="./fukurodani.html" class="pageBtn" style="background-color: var(--fukurodani-color); color: white;">Fukurōdani Quiz</a>`;
+        resetFukurodani();
     }
-}
+};
+
+function resetFukurodani() {
+    document.querySelector('.click-fuku').setAttribute("onclick", "location.reload()");
+    document.querySelector('.click-fuku').innerHTML = `<i class="fas fa-redo"></i> Reload`;
+};
+
