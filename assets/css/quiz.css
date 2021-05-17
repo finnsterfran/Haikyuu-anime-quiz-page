@@ -1,0 +1,82 @@
+.quiz-container {
+    display: flex;
+    max-width: 65%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    position: relative;
+    border-radius: 20px;
+}
+
+.quiz-box {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+#question {
+    padding: 60px;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+h1 > a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+/* Choice Stuff */
+.choice-container {
+    display: flex;
+    
+    width: 80%;
+    font-size: 1.3rem;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem auto;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.2rem 0 rgba(11, 31, 44, 0.5);
+    transform: translateY(-0.2rem);
+    transition: transform 140ms;
+}
+
+.choice {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #5AA897;
+}
+
+.incorrect {
+    background-color: #AA2B1D;
+}
+
+/* Counter */
+#counters {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/* Footer icon */
+.home-btn {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--karasuno-color);
+}

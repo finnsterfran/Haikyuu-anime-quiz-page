@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/quiz.css">
+    <title>Karasuno</title>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1><a href="./index.html">karasuno</a></h1>
+            <h6>Former highschool powerhouse volley team Karasuno makes a comeback and flies to the Spring Tournament</h6>
+            <hr>
+        </header>
+    </div>
+    <section class="quiz-container" style="background-color: var(--karasuno-color);" id="quiz">
+        <div class="quiz-box">
+            <div id="game">
+                <div id="counters">
+                    <div class="counter">
+                        <p class="counter-name">
+                            Question
+                        </p>
+                        <h1 class="counter-text" id="question-counter">         
+                        </h1>
+                    </div>
+                    <div class="counter">
+                        <p class="counter-name">
+                            Score
+                        </p>
+                        <h1 class="counter-text" id="score">
+                            0
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <h2 id="question">Question Text</h2>
+            <div class="choice-container">
+                <p class="choice" data-letter="a">Choice a</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice" data-letter="b">Choice b</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice" data-letter="c">Choice c</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="index.html" class="home-btn"><i class="fas fa-home"></i></a>
+    </footer>
+    <script src="./assets/js/karasuno.js" type="text/javascript"></script>
+</body>
+</html>
