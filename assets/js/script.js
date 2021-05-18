@@ -1,20 +1,18 @@
 // To get panels to slide open and close //
 const panels = document.querySelectorAll(".panel");
 
-panels.forEach(function(panel){
-    panel.addEventListener('click', function(){
+panels.forEach((panel) => {
+    panel.addEventListener('click', () => {
         removeActiveClasses();
-        panel.classList.add('active');  
+        panel.classList.add('active');
     });
-    
 });
 
 function removeActiveClasses() {
     panels.forEach(panel => {
         panel.classList.remove('active');
-    })
-   
-};
+    });
+}
 
 // Information // 
 
@@ -137,7 +135,7 @@ karasunoBtn.onclick = function buttonClicked() {
     if(clicks == karasunohtml.length + 1) {
         karaTextBox.classList.add('teamTextBox');
         karaTextBox.innerHTML = `<p>Karasuno is a high school located in Miyagi Prefecture. In the old days under the guidance of Coach Ukai Ikkei, Karasuno represented the prefecture at the Spring High nationals nine times. For five years, the team failed to make it pass any prelimary, earning them the nicknames "The Flightless Crows". </p>
-        <a href="./karasuno.html" class="pageBtn" style="background-color:black; color:var(--karasuno-color);">Karasuno Quiz</a>`;
+        <a href="./karasuno.html" class="pageBtn" style="background-color:black; color: #ff8303;">Karasuno Quiz</a>`;
         resetKarasuno();
     }
 };
@@ -223,7 +221,7 @@ nekomaBtn.onclick = function buttonClicked() {
     if(clicks === nekomahtml.length + 1) {
         nekoTextBox.classList.add('teamTextBox');
         nekoTextBox.innerHTML = `<p>Nekoma is a high school located in Tokyo Prefecture, and are a long time rival of Karasuno. In the old days, under the guidance of Coach Nekomata and the old Karasuno Coach Ukai Ikkei, when these two teams would meet up in official matches, it was known as Battle of the Dumpster. Nekoma is famous for their all-round defense, of which Karasuno has never been able to penetrate.</p>
-        <a href="./nekoma.html" class="pageBtn" style="background-color: var(--nekoma-color); color: black;">Nekoma Quiz</a>`;
+        <a href="./nekoma.html" class="pageBtn" style="background-color: #EC4646; color: black;">Nekoma Quiz</a>`;
         resetNekoma();
     }
 };

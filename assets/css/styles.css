@@ -105,7 +105,7 @@ header h2 {
 .panel.active {
     flex: 7;
     opacity: 1;
-    transition: transform 1.2s;
+    transition: transform 0.8s;
     cursor: not-allowed;
 }
 .panel.active h3 {
