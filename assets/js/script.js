@@ -174,7 +174,7 @@ const nekomahtml = [
     `<div class="card-container">
     <img src="./assets/images/neko-img/yamamoto-small.jpg">
     <h4>Yamamoto Taketora</h4>
-    <h5>Ace/Wing Spike/Outside Hitter</h5>
+    <h5>Ace/Wing Spiker/Outside Hitter</h5>
     <h5>Second Year</h5>
     <h5>Jersey Number 4</h5></div>`,
 
@@ -188,7 +188,7 @@ const nekomahtml = [
     `<div class="card-container">
     <img src="./assets/images/neko-img/fukunaga-small.jpg">
     <h4>Fukunaga Shōhei</h4>
-    <h5>Wing Spike/Outside Hitter</h5>
+    <h5>Wing Spiker/Outside Hitter</h5>
     <h5>Second Year</h5>
     <h5>Jersey Number 6</h5></div>`,
 
@@ -202,7 +202,7 @@ const nekomahtml = [
     `<div class="card-container">
     <img src="./assets/images/neko-img/lev-small.jpg">
     <h4>Haiba Lev</h4>
-    <h5>Middle Block</h5>
+    <h5>Middle Blocker</h5>
     <h5>First Year</h5>
     <h5>Jersey Number 11</h5></div>`,
 
@@ -267,7 +267,7 @@ const datekogyohtml = [
     `<div class="card-container">
     <img src="./assets/images/date-img/onagawa-small.jpg">
     <h4>Onagawa Tarō</h4>
-    <h5>Wing Spike/Opposite Hitter</h5>
+    <h5>Wing Spiker/Opposite Hitter</h5>
     <h5>Second Year</h5>
     <h5>Jersey Number 8</h5></div>`,
 
@@ -412,7 +412,7 @@ const shiratorizawahtml = [
 
     `<div class="card-container">
     <img src="./assets/images/shira-img/tendo-small.jpg">
-    <h4>Tendo Satori</h4>
+    <h4>Tendō Satori</h4>
     <h5>Middle Blocker</h5>
     <h5>Third Year</h5>
     <h5>Jersey Number 5</h5></div>`,
@@ -451,7 +451,7 @@ shiratorizawaBtn.onclick = function buttonClicked() {
     clicks +=1;
     if(clicks === shiratorizawahtml.length + 1) {
         shiraTextBox.classList.add('teamTextBox');
-        shiraTextBox.innerHTML = `<p>Shiratorizawa has the most powerful volleyball team in the Miyagi prefecture and is ranked in the top 8 in all Japan. The team's strategy is to suppose the Ace, Ushijima Wakatoshi, who is nationally ranked #3.</p>
+        shiraTextBox.innerHTML = `<p>Shiratorizawa has the most powerful volleyball team in the Miyagi prefecture and is ranked in the top 8 in all Japan. The team's strategy is to support the Ace, Ushijima Wakatoshi, who is nationally ranked #3.</p>
         <a href="./shiratorizawa.html" class="pageBtn" style="background-color: #95389E; color: white;">Shiratorizawa Quiz</a>`;
         resetShiratorizawa();
     }
@@ -507,7 +507,7 @@ const fukurodanihtml = [
     `<div class="card-container">
     <img src="./assets/images/fuku-img/komi-small.jpg">
     <h4>Komi Haruki</h4>
-    <h5>Liberor</h5>
+    <h5>Libero</h5>
     <h5>Third Year</h5>
     <h5>Jersey Number 11</h5></div>`,
 

@@ -22,7 +22,7 @@ const karasunoData = [
     },
     {
         question: "Who is chosen to be Karasuno's next captain after Sawamura Daichi?",
-        choice1: "Narita Kazuhio",
+        choice1: "Narita Kazuhito",
         choice2: "Ennoshita Chikara",
         choice3: "Tanaka Ryūnosuke",
         answer: 2,
@@ -60,8 +60,15 @@ const karasunoData = [
         choice1: "Rule the court",
         choice2: "Crow",
         choice3: "Fly",
-        answer: 3
+        answer: 3,
     },
+    {
+        question: "Who is Karasuno's ace?",
+        choice1: "Sawamura Daichi",
+        choice2: "Azumane Asahi",
+        choice3: "Tanaka Ryūnosuke",
+        answer: 2
+    }
 ];
 
 const quiz = document.querySelector('.quiz-box');

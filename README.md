@@ -10,3 +10,5 @@ Milestone 2 - Interactive Frontend Project
 ####commit change the colors of the team pages buttons in the panels.
 ####commit add aobajosai.js and aobajosai.html
 ####commit add shiratorizawa.js and shiratorizawa.html
+####commit add fukurodani.js and fukurodani.html, change quiz font color to white to provide contrast with background.
+
