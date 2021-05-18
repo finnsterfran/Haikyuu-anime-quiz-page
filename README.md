@@ -9,3 +9,4 @@ Milestone 2 - Interactive Frontend Project
 ####commit add datekogyo.js and datekogyo.html
 ####commit change the colors of the team pages buttons in the panels.
 ####commit add aobajosai.js and aobajosai.html
+####commit add shiratorizawa.js and shiratorizawa.html
