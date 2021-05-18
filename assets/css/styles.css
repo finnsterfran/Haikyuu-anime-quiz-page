@@ -48,7 +48,7 @@ header h2 {
     flex: 0.5;
     border-radius: 20px;
     margin: 30px 10px;
-    transition: flex 0.5s ease-in;
+    transition: flex 0.6s ease-in;
     cursor: pointer;
 }
 
@@ -66,8 +66,11 @@ header h2 {
     writing-mode: vertical-rl;
     text-orientation: upright;
     text-transform: uppercase;
-    padding-top: 20px;
-    background: rgba(255, 255, 255, 0.5)
+    padding-top: 25px;
+    background: rgba(255, 255, 255, 0.6)
+}
+.panel > .information {
+    background: none;
 }
 
 .panel p {
@@ -108,10 +111,10 @@ header h2 {
 .panel.active h3 {
     writing-mode: horizontal-tb;
     text-orientation: sideways;
-    margin: 20px 50px;
+    margin: 10px 50px;
     transition: flex 3s ease-in;
     font-size: 1.8rem;
-    width: 280px;
+    background: none;
 }
 .panel.active .btn {
     opacity: 0.8;
@@ -148,8 +151,9 @@ header h2 {
     width: 90%;
     margin: 40px auto;
     padding-top: 25px;
-    background-color: whitesmoke;
+    background-color: whitesmoke;    
 }
+
 .panel.active > .teamTextBox > p {
     margin-top: 15px;
 }
@@ -160,7 +164,6 @@ header h2 {
     height: 100%;
     width: 450px;
     margin: 40px auto;
-    
     background-color: rgb(240, 240, 240);
     box-shadow: 5px 3px 4px gray;
     padding: 10px;
@@ -172,6 +175,7 @@ header h2 {
 .card-container {
     opacity: 0;
     width: 10px;
+    
 }
 
 .text-box {
