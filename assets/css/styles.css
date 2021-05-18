@@ -36,7 +36,7 @@ header h1 {
     text-transform: uppercase;
 }
 
-header h6 {
+header h2 {
     font-size: 1rem;
     padding-bottom: 6px;
 }
@@ -78,6 +78,7 @@ header h6 {
     text-orientation: upright;
     text-transform: uppercase;
     padding-top: 20px;
+    backdrop-filter: blur(15px);
 }
 
 .panel p {
@@ -121,6 +122,7 @@ header h6 {
     margin: 20px 50px;
     transition: flex 0.6 ease-in;
     font-size: 1.8rem;
+    width: 300px;
 }
 .panel.active .btn {
     opacity: 0.8;
@@ -214,7 +216,7 @@ h4 {
 .social {
     text-align: center;
 }
-.social h6 {
-    font-size: 0.9rem;
+.social h3 {
+    font-size: 1rem;
     padding: 10px;
 }
