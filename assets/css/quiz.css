@@ -1,6 +1,6 @@
 .quiz-container {
     display: flex;
-    max-width: 65%;
+    width: 60%;
     height: 70vh;
     align-items: center;
     justify-content: center;
@@ -17,12 +17,15 @@
     display: flex;
     flex-direction: column;
     border-radius: 20px;
+    color: black;
 }
 
 #question {
+    margin: 20px 50px;
     padding: 60px;
     font-weight: 500;
     font-size: 2rem;
+   
 }
 
 h1 > a {
@@ -50,7 +53,7 @@ h1 > a {
 }
 
 .choice {
-    padding: 1.5rem;
+    padding: 1.2rem;
     width: 100%;
 }
 
@@ -66,17 +69,53 @@ h1 > a {
 #counters {
     display: flex;
     justify-content: space-between;
+    padding: 10px 15px;
+    
 }
 
+.counter-name {
+    text-align: center;
+    font-size: 2rem;
+}
 
+.counter-text {
+    text-align: center;
+}
 
+#question-counter,
+#score {
+    color: black;
+    padding-top: 5px;
+    font-weight: bolder;
+}
 
+.score_message {
+    margin: auto;
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 2;
+}
+
+.submitBtn {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: block;
+    position: absolute;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
 
 
 /* Footer icon */
 .home-btn {
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--karasuno-color);
+    padding-top: 10px;
 }
+
