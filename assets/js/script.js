@@ -378,7 +378,7 @@ aobajosaiBtn.onclick = function buttonClicked() {
     if(clicks === aobajosaihtml.length + 1) {
         aobaTextBox.classList.add('teamTextBox');
         aobaTextBox.innerHTML = `<p>Aoba Josai, also known as Seijoh, is a highschool in Miyagi prefecture. The volleyball team is ranked top four in the prefecture, most of the team players graduated from Kitagawa Daiichi Junior High. Oikawa Tōru is the team's setter but can play several different positions as well. He is the most well-rounded player in Haikyū.</p>
-        <a href="./aobajosai.html" class="pageBtn" style="background-color: var(--aobajosai-color); color: black;">Aoba Jōsai Quiz</a>`;
+        <a href="./aobajosai.html" class="pageBtn" style="background-color: #A8E6CF; color: black;">Aoba Jōsai Quiz</a>`;
         resetAobajosai();
     }
 };
@@ -452,7 +452,7 @@ shiratorizawaBtn.onclick = function buttonClicked() {
     if(clicks === shiratorizawahtml.length + 1) {
         shiraTextBox.classList.add('teamTextBox');
         shiraTextBox.innerHTML = `<p>Shiratorizawa has the most powerful volleyball team in the Miyagi prefecture and is ranked in the top 8 in all Japan. The team's strategy is to suppose the Ace, Ushijima Wakatoshi, who is nationally ranked #3.</p>
-        <a href="./shiratorizawa.html" class="pageBtn" style="background-color: var(--shiratorizawa-color); color: white;">Shiratorizawa Quiz</a>`;
+        <a href="./shiratorizawa.html" class="pageBtn" style="background-color: #95389E; color: white;">Shiratorizawa Quiz</a>`;
         resetShiratorizawa();
     }
 };
@@ -525,7 +525,7 @@ fukurodaniBtn.onclick = function buttonClicked() {
     if(clicks === fukurodanihtml.length + 1) {
         fukuTextBox.classList.add('teamTextBox');
         fukuTextBox.innerHTML = `<p>Fukurōdani is a highschool in the Tokyo prefecture and the volleyball team ranks top four in that region. The volleyball team holds practice matches and summer training camps with the other highschool volleyball teams in the Kanto region.</p>
-        <a href="./fukurodani.html" class="pageBtn" style="background-color: var(--fukurodani-color); color: white;">Fukurōdani Quiz</a>`;
+        <a href="./fukurodani.html" class="pageBtn" style="background-color: #31326F; color: white;">Fukurōdani Quiz</a>`;
         resetFukurodani();
     }
 };
