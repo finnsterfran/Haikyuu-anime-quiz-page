@@ -5,3 +5,4 @@ Milestone 2 - Interactive Frontend Project
 ####commit Add script for quiz to karasuno.js. Make adjustments to karasuno.html, remove the home-icon and make it appear only after quiz message appears. Make changes to quiz.css and style css. Score message line height increase. Question margin decreased.
 ####commit make changes to styles.css to comply with css validator. remove :root, change colors from var() to #color.
 ####commit change background property for h3 in panel to be hidden in active state and hidden in information panel when inactive. 
+####commit implemented nekoma quiz in nekoma.js and nekoma.html. fix home icon color in css."

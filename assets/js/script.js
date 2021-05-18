@@ -291,8 +291,8 @@ datekogyoBtn.onclick = function buttonClicked() {
     clicks +=1;
     if(clicks === datekogyohtml.length + 1) {
         dateTextBox.classList.add('teamTextBox');
-        dateTextBox.innerHTML = `<p>Datekōgyō is a highschool in the Miyagi prefecture and are known for their almost impenetrable three men block.</p>
-        <a href="./datekogyo.html" class="pageBtn" style="background-color: var(--datekogyo-color); color: black;">Datekōgyō Quiz</a>`;
+        dateTextBox.innerHTML = `<p>Datekōgyō is a highschool in the Miyagi prefecture and are known for their almost impenetrable three men bunch-shift block and exceptionally tall players. Aone Takanobu and Hinata Shōyō have great respect for each other.</p>
+        <a href="./datekogyo.html" class="pageBtn" style="background-color: #34656D; color: white;">Datekōgyō Quiz</a>`;
         resetDatekogyo();
     }
 };
