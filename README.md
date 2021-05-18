@@ -8,3 +8,4 @@ Milestone 2 - Interactive Frontend Project
 ####commit implemented nekoma quiz in nekoma.js and nekoma.html. fix home icon color in css."
 ####commit add datekogyo.js and datekogyo.html
 ####commit change the colors of the team pages buttons in the panels.
+####commit add aobajosai.js and aobajosai.html
