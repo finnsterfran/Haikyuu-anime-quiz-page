@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MILESTONE PROJECT TWO - USER INTERACTIVE 
 # Haikyū! - anime series player cards and quiz
 
@@ -114,4 +115,19 @@ mobile
 #### commit add shiratorizawa.js and shiratorizawa.html
 #### commit add fukurodani.js and fukurodani.html, change quiz font color to white to provide contrast with background.
 #### commit Minor changes to quiz and player description typos.
+=======
+Milestone 2 - Interactive Frontend Project
+# Haikyū! 
+
+####commit Change h6 tag in header to h2 and h6 tag in footer to h3. Add backdrop-filter to h3 in panels to make the words more readable. Decrease width of h3 in active panel. 
+####commit Add script for quiz to karasuno.js. Make adjustments to karasuno.html, remove the home-icon and make it appear only after quiz message appears. Make changes to quiz.css and style css. Score message line height increase. Question margin decreased.
+####commit make changes to styles.css to comply with css validator. remove :root, change colors from var() to #color.
+####commit change background property for h3 in panel to be hidden in active state and hidden in information panel when inactive. 
+####commit implemented nekoma quiz in nekoma.js and nekoma.html. fix home icon color in css."
+####commit add datekogyo.js and datekogyo.html
+####commit change the colors of the team pages buttons in the panels.
+####commit add aobajosai.js and aobajosai.html
+####commit add shiratorizawa.js and shiratorizawa.html
+####commit add fukurodani.js and fukurodani.html, change quiz font color to white to provide contrast with background.
+>>>>>>> f86cc4761b8e526ec77801fabc6b537c09c2a448
 
