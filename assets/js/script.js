@@ -53,7 +53,7 @@ let karasunohtml = [
     `<div class="card-container">
     <img src="./assets/images/kara-img/sugawara-small.jpg">
     <h4>Sugawara Kōshi</h4>
-    <h5>Vice Captain/Setter/Pinch Server</h5>
+    <h5>Vice Captain/Setter</h5>
     <h5>Third Year</h5>
     <h5>Jersey Number 2</h5></div>`,
 
@@ -174,7 +174,7 @@ const nekomahtml = [
     `<div class="card-container">
     <img src="./assets/images/neko-img/yamamoto-small.jpg">
     <h4>Yamamoto Taketora</h4>
-    <h5>Ace/Wing Spiker/Outside Hitter</h5>
+    <h5>Ace/Wing Spiker</h5>
     <h5>Second Year</h5>
     <h5>Jersey Number 4</h5></div>`,
 
@@ -291,7 +291,7 @@ datekogyoBtn.onclick = function buttonClicked() {
     clicks +=1;
     if(clicks === datekogyohtml.length + 1) {
         dateTextBox.classList.add('teamTextBox');
-        dateTextBox.innerHTML = `<p>Datekōgyō is a highschool in the Miyagi prefecture and are known for their almost impenetrable three men bunch-shift block and exceptionally tall players. Aone Takanobu and Hinata Shōyō have great respect for each other.</p>
+        dateTextBox.innerHTML = `<p>Datekōgyō is a highschool in the Miyagi prefecture and are known for their almost impenetrable three men bunch-shift block and exceptionally tall players. The team has the highest blocking rate in the prefecture, completely shutting out Karasuno in the previous Interhigh Preliminaries.</p>
         <a href="./datekogyo.html" class="pageBtn" style="background-color: #34656D; color: white;">Datekōgyō Quiz</a>`;
         resetDatekogyo();
     }

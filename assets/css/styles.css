@@ -69,6 +69,7 @@ header h2 {
     padding-top: 25px;
     background: rgba(255, 255, 255, 0.6)
 }
+
 .panel > .information {
     background: none;
 }
@@ -93,10 +94,6 @@ header h2 {
     text-decoration: none;
 }
 
-#info {
-    padding-top: 50px;
-}
-
 .teamTextBox {
     width: 10px;
 }
@@ -108,6 +105,7 @@ header h2 {
     transition: transform 0.8s;
     cursor: not-allowed;
 }
+
 .panel.active h3 {
     writing-mode: horizontal-tb;
     text-orientation: sideways;
@@ -158,6 +156,10 @@ header h2 {
     margin-top: 15px;
 }
 
+.pageBtn {
+    margin: 10px auto;
+}
+
 .panel.active .card-container {
     opacity: 1;
     border-radius: 10px;
@@ -175,12 +177,10 @@ header h2 {
 .card-container {
     opacity: 0;
     width: 10px;
-    
 }
 
 .text-box {
     height: 65%;
-   
 }
 
 img {
@@ -214,3 +214,109 @@ h4 {
     padding: 10px;
 }
 
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 768px) {
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    header h2 {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        height: 83%;
+    }
+    
+    .panel h3 {
+        font-size: 1.7rem;
+        padding: 5px;
+        margin: auto;
+        writing-mode: horizontal-tb;
+        text-orientation: sideways;
+        text-align: center;
+        width: 200px;
+        height: 30px;
+    }
+
+    .panel {
+        margin: 5px;
+        height: 10px;
+    }    
+
+    .panel.active .info-text,
+    .panel.active .info {
+        padding: 50px;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .panel.active h3.information {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    
+    .panel.active h3 {
+        padding: 10px;
+        margin: auto;
+        transition: flex 1s ease-in;
+        text-align: center;
+    }
+
+    .panel.active .btn {
+        height: 70px;
+    }
+
+    .panel.active p {
+        margin: auto;
+        padding: 10px 5px 10px;
+        line-height: 1.8;
+    }
+
+    .panel.active >.teamTextBox {
+        height: 70%;
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .panel.actve > .teamTextBox > p {
+        margin: auto;
+        padding: 10px;
+    }
+
+    .panel.active .card-container {
+        display: inline-block;
+        flex-direction: column;
+        height: 100%;
+        width: auto;
+        margin: 30px 15px;
+    }
+
+    .card-container > img {
+        float: left;
+    }
+
+    .card-container > h4, 
+    .card-container > h5 {
+        float: right;
+    }
+
+    .card-container > h4 {
+        font-weight: bold;
+        padding-top: 40px;
+        font-size: 1.4rem;
+        width: 280px;
+    }
+
+    .card-container > h5 {
+        font-size: 1rem;
+        font-weight: 500;
+        width: 280px;
+    }
+}

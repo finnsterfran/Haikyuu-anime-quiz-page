@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 MILESTONE PROJECT TWO - USER INTERACTIVE 
 # Haikyū! - anime series player cards and quiz
 
@@ -96,6 +95,14 @@ mobile
 * CSS3
 * JavaScript ES6
 
+## Integration
+
+
+# Workspace, Version Control and Repository Storage
+
+# Resources
+
+
 
 
 
@@ -115,7 +122,6 @@ mobile
 #### commit add shiratorizawa.js and shiratorizawa.html
 #### commit add fukurodani.js and fukurodani.html, change quiz font color to white to provide contrast with background.
 #### commit Minor changes to quiz and player description typos.
-=======
 Milestone 2 - Interactive Frontend Project
 # Haikyū! 
 
@@ -129,5 +135,4 @@ Milestone 2 - Interactive Frontend Project
 ####commit add aobajosai.js and aobajosai.html
 ####commit add shiratorizawa.js and shiratorizawa.html
 ####commit add fukurodani.js and fukurodani.html, change quiz font color to white to provide contrast with background.
->>>>>>> f86cc4761b8e526ec77801fabc6b537c09c2a448
 
