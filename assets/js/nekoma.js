@@ -1,7 +1,7 @@
 const nekomaData = [
     {
         question: "Who is Nekoma's vice captain?",
-        choice1: "Kai Nobuyaki",
+        choice1: "Kai Nobuyuki",
         choice2: "Kozume Kenma",
         choice3: "Morisuke Yaku",
         answer: 1,
