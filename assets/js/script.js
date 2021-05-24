@@ -134,7 +134,7 @@ let karasunohtml = [
 karasunoBtn.onclick = function buttonClicked() {
     karaTextBox.innerHTML = karasunohtml[karaclicks];
     karaclicks += 1;
-    if (karaclicks == karasunohtml.length + 1) {
+    if (karaclicks === karasunohtml.length + 1) {
         karaTextBox.classList.add('teamTextBox');
         karaTextBox.innerHTML = `<p>Karasuno is a high school located in Miyagi Prefecture. In the old days under the guidance of Coach Ukai Ikkei, Karasuno represented the prefecture at the Spring High nationals nine times. For five years, the team failed to make it pass any prelimary, earning them the nicknames "The Flightless Crows". </p>
         <a href="./karasuno.html" class="pageBtn" style="background-color:black; color: #ff8303;">Karasuno Quiz</a>`;
