@@ -284,22 +284,22 @@ h4 {
     }
 
     .panel.active p {
-        margin: 40px auto;
+
         padding: 10px 5px 10px;
         line-height: 1.8;
     }
 
-    .panel.active >.teamTextBox {
+    .panel.active > .teamTextBox {
         height: 70%;
         width: 90%;
-        margin: 20px 10px auto;
+        margin: 40px;
         text-align: center;
         padding-top: 10px;
     }
 
     .panel.actve > .teamTextBox > p {
         margin: auto;
-        padding: 10px;
+        padding: 10px 0;
     }
 
     .panel.active .card-container {
@@ -331,6 +331,7 @@ h4 {
         font-weight: 500;
         width: 280px;
     }
+    
     
 }
 
@@ -443,4 +444,26 @@ h4 {
         padding: 5px;
         margin: auto;
     }
+}
+
+@media only screen and (max-width: 320px) {
+    .panel.active > .teamTextBox {
+        margin: 5px auto;
+        padding: 5px;
+        height: 76%;
+    }
+
+    .panel.active p {
+        margin: 5px auto;
+        line-height: 1;
+    }
+
+    img {
+        margin-top: 0;
+    }
+
+    .card-container > h5 {
+        line-height: 1;
+    }
+    
 }
