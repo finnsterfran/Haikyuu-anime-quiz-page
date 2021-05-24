@@ -17,6 +17,12 @@ MILESTONE PROJECT TWO - USER INTERACTIVE
     *   [Surface](#Surface)
         * [Colors](##Colors)
         * [Typography](##Typography)
+
+2.  [Features](#Features)
+    *   [Existing Features](#ExistingFeatures)
+    *   [Features in the future](#Featuresinthefuture)
+
+3.  [TechnologiesUsed] 
     
 
 
@@ -80,7 +86,7 @@ MILESTONE PROJECT TWO - USER INTERACTIVE
     ![Mobile - homepage](assets/images/readme-img/wireframe-mobile.png) 
 
     * Mobile quizpage
-    
+
     ![Mobile - quizpage](assets/images/readme-img/wireframe-mobile-quiz.png)
 
 
@@ -182,4 +188,5 @@ MILESTONE PROJECT TWO - USER INTERACTIVE
 1. Amend media query for quiz.css for laptop, tablet and mobile screens. 
 2. Make slight changes to styles.css media-query for max-width: 768px
 3. Make slight changes for media query max-width: 320px
+4. Add images for ReadMe.md
 
