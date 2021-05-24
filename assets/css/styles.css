@@ -284,7 +284,7 @@ h4 {
     }
 
     .panel.active p {
-        margin: auto;
+        margin: 40px auto;
         padding: 10px 5px 10px;
         line-height: 1.8;
     }
@@ -292,7 +292,7 @@ h4 {
     .panel.active >.teamTextBox {
         height: 70%;
         width: 90%;
-        margin: 20px auto;
+        margin: 20px 10px auto;
         text-align: center;
         padding-top: 10px;
     }
@@ -331,6 +331,7 @@ h4 {
         font-weight: 500;
         width: 280px;
     }
+    
 }
 
 @media only screen and (min-width: 320px) and (max-width: 640px) and (orientation: portrait) {
