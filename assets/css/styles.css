@@ -207,12 +207,11 @@ h4 {
 }
 
 /* Footer */
-.copyright {
-    text-align: center;
-}
+
 .copyright h3 {
     font-size: 1rem;
     padding: 10px;
+    text-align: center;
 }
 
 /* MEDIA QUERY */

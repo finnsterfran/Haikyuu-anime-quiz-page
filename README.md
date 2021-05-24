@@ -1,10 +1,10 @@
 MILESTONE PROJECT TWO - USER INTERACTIVE 
 # Haikyū! - anime series player cards and quiz
 
-![Responsive-screens](assets/images/readme-img/Responsive-screens.png)
-![Responsivescreens-quizpage](assets/images/readme-img/Responsivescreens-quizpage.png)
+![Responsive-screens](assets/images/readme-img/responsive-screens.png)
+![Responsivescreens-quizpage](assets/images/readme-img/responsivescreens-quizpage.png)
 
-#### This project features a website based on the manga and anime series Haikyū!, featuring the teams that are important to the plot of the story. Interacting with the panels on the homepage will bring the user to information about the teams, starting line-up player cards and team quiz. 
+###### This project features a website based on the manga and anime series Haikyū!, featuring the teams that are important to the plot of the story. Interacting with the panels on the homepage will bring the user to information about the teams, starting line-up player cards and team quiz. 
 # Table of Content 
 
 1.  [UX](#UX)
@@ -38,7 +38,7 @@ MILESTONE PROJECT TWO - USER INTERACTIVE
 
 ## Visitor to the website 
 * I am a fan of the anime and I want to test my knowledge of the teams.
-* I watched the anime and can't match the player's name to the player's face. 
+* I watched the anime and would like to match the player's faces to their names. 
 
 ### These goals are accomplished via: 
 * Player cards in the panel feature an image, name, position and year of each starting line-up player for the teams.
@@ -102,26 +102,26 @@ MILESTONE PROJECT TWO - USER INTERACTIVE
 
 * Color for Karasuno:
 
-    ![Karasuno Color](assets/images/readme-img/Karasuno-color.png) 
+    ![Karasuno Color](assets/images/readme-img/karasuno-color.png) 
 * Color for Nekoma:
 
-    ![Nekoma Color](assets/images/readme-img/Nekoma-color.png)
+    ![Nekoma Color](assets/images/readme-img/nekoma-color.png)
 
 * Color for Datekōgyō:
 
-    ![Datekōgyō Color](assets/images/readme-img/Datekogyo-color.png)
+    ![Datekōgyō Color](assets/images/readme-img/datekogyo-color.png)
 
 * Color for Aoba Jōsai:
 
-    ![Aoba Jōsai Color](assets/images/readme-img/AobaJosai-color.png)
+    ![Aoba Jōsai Color](assets/images/readme-img/aobaJosai-color.png)
 
 * Color for Shiratorizawa:
 
-    ![Shiratorizawa Color](assets/images/readme-img/Shiratorizawa-color.png)
+    ![Shiratorizawa Color](assets/images/readme-img/shiratorizawa-color.png)
 
 * Color for Fukurōdani:
 
-    ![Fukurōdani Color](assets/images/readme-img/Fukurodani-color.png)
+    ![Fukurōdani Color](assets/images/readme-img/fukurodani-color.png)
 
 ## Typography:
 ### "Courier New" font family was used for the entire website.
@@ -163,6 +163,10 @@ MILESTONE PROJECT TWO - USER INTERACTIVE
     * printable grids used for wirefreams and edited using preview
 * [udemy](https://www.udemy.com/)
     * JavaScript course taken here to learn how to make a quiz
+
+# Testing 
+
+
 
 
 
