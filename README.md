@@ -22,7 +22,11 @@ MILESTONE PROJECT TWO - USER INTERACTIVE
     *   [Existing Features](#ExistingFeatures)
     *   [Features in the future](#Featuresinthefuture)
 
-3.  [TechnologiesUsed] 
+3.  [Technologies](#Technologies)
+    *   [Languages](#Languages)
+    *   [Integration](#Integrations)
+    *   [Workspace](#)
+
     
 
 
@@ -128,7 +132,12 @@ MILESTONE PROJECT TWO - USER INTERACTIVE
 
 ## Existing Features
 * Panels that slide open upon clicking. 
+* Player cards 
+* Repeatable quiz 
 
+## Features to consider implementing in the future
+* Short video clips of anime
+* Memory game - match player with their teams
 
 # Technologies Used 
 
@@ -138,11 +147,24 @@ MILESTONE PROJECT TWO - USER INTERACTIVE
 * JavaScript ES6
 
 ## Integration
-
+* [Font Awesome](https://fontawesome.com/)
+    * Icon used on website
 
 # Workspace, Version Control and Repository Storage
+* [Gitpod](https://gitpod.io/)
+* [Github](https://github.com/)
+* [Git](https://git-scm.com/)
 
 # Resources
+
+* [Crunchyroll](https://www.crunchyroll.com/en-gb)
+    * all images are screenshot snapped from the anime videos 
+* [Sneakpeekot](https://sneakpeekit.com/)
+    * printable grids used for wirefreams and edited using preview
+* [udemy](https://www.udemy.com/)
+    * JavaScript course taken here to learn how to make a quiz
+
+
 
 # COMMITS 
 #### Commit May 12, 2021

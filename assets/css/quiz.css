@@ -36,10 +36,10 @@
     padding: 50px;
     font-weight: 500;
     font-size: 2rem;
-   
+
 }
 
-h1 > a {
+h1>a {
     text-decoration: none;
     color: darkslategray;
 }
@@ -47,7 +47,7 @@ h1 > a {
 /* Choice Stuff */
 .choice-container {
     display: flex;
-    
+
     width: 80%;
     font-size: 1.3rem;
     background-color: whitesmoke;
@@ -81,7 +81,7 @@ h1 > a {
     display: flex;
     justify-content: space-between;
     padding: 10px 15px;
-    
+
 }
 
 .counter-name {
@@ -98,6 +98,7 @@ h1 > a {
     color: black;
     padding-top: 5px;
     font-weight: bolder;
+    font-size: 2rem;
 }
 
 .score_message {
@@ -135,7 +136,7 @@ h1 > a {
     color: darkslategrey;
 }
 
-.home > i::before {
+.home>i::before {
     color: darkslategrey;
 }
 
@@ -155,14 +156,12 @@ h1 > a {
     }
 }
 
-
-
 @media only screen and (max-width: 768px) {
-    header > h2 {
+    header>h2 {
         font-size: 1.2rem;
         padding-right: 40px;
     }
-    
+
     .quiz-container {
         width: 90%;
         height: 70%;
@@ -185,11 +184,11 @@ h1 > a {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 640px) {
-    header > h1 {
+    header>h1 {
         font-size: 2.2rem;
     }
 
-    header > h2 {
+    header>h2 {
         padding: 5px 10px;
         font-size: 0.8rem;
     }

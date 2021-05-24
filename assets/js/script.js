@@ -30,8 +30,8 @@ let clicks = 0;
 
 changeBtn.onclick = function buttonClicked() {
     paraText.innerHTML = pText[clicks];
-    clicks +=1;
-    if(clicks === pText.length) {
+    clicks += 1;
+    if (clicks === pText.length) {
         textBox.innerHTML = `<p><span>Fun Fact: </span>Haikyū!! creator Furudate Haruichi was a middle blocker in Junior High school and High School. His favorite players are Aoyama Shigeru  and Yoneyama Yuta. He was passionate about playing volleyball but ultimately chose to follow his other passion - drawing. </p>
         <button class="btn reload-info" onclick="location.reload()"><i class="fas fa-redo"></i> Reload</button>`;
     };
@@ -40,6 +40,8 @@ changeBtn.onclick = function buttonClicked() {
 // Karasuno Panel to load player cards // 
 const karasunoBtn = document.querySelector('.click-kara');
 const karaTextBox = document.getElementById('text-kara');
+
+let karaclicks = 0;
 
 let karasunohtml = [
 
@@ -130,9 +132,9 @@ let karasunohtml = [
 ];
 
 karasunoBtn.onclick = function buttonClicked() {
-    karaTextBox.innerHTML = karasunohtml[clicks];
-    clicks +=1;
-    if(clicks == karasunohtml.length + 1) {
+    karaTextBox.innerHTML = karasunohtml[karaclicks];
+    karaclicks += 1;
+    if (karaclicks == karasunohtml.length + 1) {
         karaTextBox.classList.add('teamTextBox');
         karaTextBox.innerHTML = `<p>Karasuno is a high school located in Miyagi Prefecture. In the old days under the guidance of Coach Ukai Ikkei, Karasuno represented the prefecture at the Spring High nationals nine times. For five years, the team failed to make it pass any prelimary, earning them the nicknames "The Flightless Crows". </p>
         <a href="./karasuno.html" class="pageBtn" style="background-color:black; color: #ff8303;">Karasuno Quiz</a>`;
@@ -148,6 +150,8 @@ function resetKarasuno() {
 // Nekoma Panel to load player cards //
 const nekomaBtn = document.querySelector('.click-neko');
 const nekoTextBox = document.getElementById('text-neko');
+
+let nekoclicks = 0;
 
 const nekomahtml = [
     `<div class="card-container">
@@ -216,9 +220,9 @@ const nekomahtml = [
 ];
 
 nekomaBtn.onclick = function buttonClicked() {
-    nekoTextBox.innerHTML = nekomahtml[clicks];
-    clicks +=1;
-    if(clicks === nekomahtml.length + 1) {
+    nekoTextBox.innerHTML = nekomahtml[nekoclicks];
+    nekoclicks += 1;
+    if (nekoclicks === nekomahtml.length + 1) {
         nekoTextBox.classList.add('teamTextBox');
         nekoTextBox.innerHTML = `<p>Nekoma is a high school located in Tokyo Prefecture, and are a long time rival of Karasuno. In the old days, under the guidance of Coach Nekomata and the old Karasuno Coach Ukai Ikkei, when these two teams would meet up in official matches, it was known as Battle of the Dumpster. Nekoma is famous for their all-round defense, of which Karasuno has never been able to penetrate.</p>
         <a href="./nekoma.html" class="pageBtn" style="background-color: #EC4646; color: black;">Nekoma Quiz</a>`;
@@ -235,6 +239,7 @@ function resetNekoma() {
 const datekogyoBtn = document.querySelector('.click-date');
 const dateTextBox = document.getElementById('text-date');
 
+let dateclicks = 0; 
 const datekogyohtml = [
     `<div class="card-container">
     <img src="./assets/images/date-img/aone-small.jpg">
@@ -287,9 +292,9 @@ const datekogyohtml = [
 ];
 
 datekogyoBtn.onclick = function buttonClicked() {
-    dateTextBox.innerHTML = datekogyohtml[clicks];
-    clicks +=1;
-    if(clicks === datekogyohtml.length + 1) {
+    dateTextBox.innerHTML = datekogyohtml[dateclicks];
+    dateclicks += 1;
+    if (dateclicks === datekogyohtml.length + 1) {
         dateTextBox.classList.add('teamTextBox');
         dateTextBox.innerHTML = `<p>Datekōgyō is a highschool in the Miyagi prefecture and are known for their almost impenetrable three men bunch-shift block and exceptionally tall players. The team has the highest blocking rate in the prefecture, completely shutting out Karasuno in the previous Interhigh Preliminaries.</p>
         <a href="./datekogyo.html" class="pageBtn" style="background-color: #34656D; color: white;">Datekōgyō Quiz</a>`;
@@ -305,6 +310,8 @@ function resetDatekogyo() {
 // Aoba Josai Panel to load player cards //
 const aobajosaiBtn = document.querySelector('.click-aoba');
 const aobaTextBox = document.getElementById('text-aoba');
+
+let aobaclicks = 0;
 
 const aobajosaihtml = [
 
@@ -373,9 +380,9 @@ const aobajosaihtml = [
 ];
 
 aobajosaiBtn.onclick = function buttonClicked() {
-    aobaTextBox.innerHTML = aobajosaihtml[clicks];
-    clicks +=1;
-    if(clicks === aobajosaihtml.length + 1) {
+    aobaTextBox.innerHTML = aobajosaihtml[aobaclicks];
+    aobaclicks += 1;
+    if (aobaclicks === aobajosaihtml.length + 1) {
         aobaTextBox.classList.add('teamTextBox');
         aobaTextBox.innerHTML = `<p>Aoba Josai, also known as Seijoh, is a highschool in Miyagi prefecture. The volleyball team is ranked top four in the prefecture, most of the team players graduated from Kitagawa Daiichi Junior High. Oikawa Tōru is the team's setter but can play several different positions as well. He is the most well-rounded player in Haikyū.</p>
         <a href="./aobajosai.html" class="pageBtn" style="background-color: #A8E6CF; color: black;">Aoba Jōsai Quiz</a>`;
@@ -394,6 +401,8 @@ function resetAobajosai() {
 // Shiratorizawa Panel to load player cards //
 const shiratorizawaBtn = document.querySelector('.click-shira');
 const shiraTextBox = document.getElementById('text-shira');
+
+let shiraclicks = 0;
 
 const shiratorizawahtml = [
     `<div class="card-container">
@@ -447,9 +456,9 @@ const shiratorizawahtml = [
 ];
 
 shiratorizawaBtn.onclick = function buttonClicked() {
-    shiraTextBox.innerHTML = shiratorizawahtml[clicks];
-    clicks +=1;
-    if(clicks === shiratorizawahtml.length + 1) {
+    shiraTextBox.innerHTML = shiratorizawahtml[shiraclicks];
+    shiraclicks += 1;
+    if (shiraclicks === shiratorizawahtml.length + 1) {
         shiraTextBox.classList.add('teamTextBox');
         shiraTextBox.innerHTML = `<p>Shiratorizawa has the most powerful volleyball team in the Miyagi prefecture and is ranked in the top 8 in all Japan. The team's strategy is to support the Ace, Ushijima Wakatoshi, who is nationally ranked #3.</p>
         <a href="./shiratorizawa.html" class="pageBtn" style="background-color: #95389E; color: white;">Shiratorizawa Quiz</a>`;
@@ -467,8 +476,10 @@ function resetShiratorizawa() {
 const fukurodaniBtn = document.querySelector('.click-fuku');
 const fukuTextBox = document.getElementById('text-fuku');
 
+let fukuclicks = 0;
+
 const fukurodanihtml = [
-    
+
     `<div class="card-container">
     <img src="./assets/images/fuku-img/washio-small.jpg">
     <h4>Washio Tatsuki</h4>
@@ -520,9 +531,9 @@ const fukurodanihtml = [
 ];
 
 fukurodaniBtn.onclick = function buttonClicked() {
-    fukuTextBox.innerHTML = fukurodanihtml[clicks];
-    clicks +=1;
-    if(clicks === fukurodanihtml.length + 1) {
+    fukuTextBox.innerHTML = fukurodanihtml[fukuclicks];
+    fukuclicks += 1;
+    if (fukuclicks === fukurodanihtml.length + 1) {
         fukuTextBox.classList.add('teamTextBox');
         fukuTextBox.innerHTML = `<p>Fukurōdani is a highschool in the Tokyo prefecture and the volleyball team ranks top four in that region. The volleyball team holds practice matches and summer training camps with the other highschool volleyball teams in the Kanto region.</p>
         <a href="./fukurodani.html" class="pageBtn" style="background-color: #31326F; color: white;">Fukurōdani Quiz</a>`;
@@ -534,4 +545,3 @@ function resetFukurodani() {
     document.querySelector('.click-fuku').setAttribute("onclick", "location.reload()");
     document.querySelector('.click-fuku').innerHTML = `<i class="fas fa-redo"></i> Reload`;
 };
-
