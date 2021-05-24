@@ -140,3 +140,4 @@ mobile
 #### commit Minor changes to quiz and player description typos.
 #### commit Updated ReadMe.
 #### commit Added media query for screen max-width 768px, updated inuoka-small in neko-img, amended some overlapping text in script.js
+#### commmit Add media query for quiz.css for laptop, tablet and mobile screens. 
