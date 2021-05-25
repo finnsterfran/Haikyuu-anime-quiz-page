@@ -216,7 +216,7 @@ h4 {
 }
 
 /* MEDIA QUERY */
-@media only screen and (min-width: 900px) and (max-width: 1280px) {
+@media only screen and (min-width: 900px) and (max-width: 1280px) and (orientation: portrait) {
     .panel.active .card-container {
         margin: 0 auto;
    }
@@ -228,7 +228,7 @@ h4 {
    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (orientation: portrait) {
 
     header h1 {
         font-size: 3.5rem;
@@ -445,7 +445,7 @@ h4 {
         display: block;
         line-height: 1.3;
         font-weight: normal;
-        font-size: 0.7;
+        font-size: 0.7rem;
         padding: 2px 15px;
     }
 

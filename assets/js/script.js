@@ -34,7 +34,7 @@ changeBtn.onclick = function buttonClicked() {
     if (clicks === pText.length) {
         textBox.innerHTML = `<p id="funfact"><span>Fun Fact: </span>Haikyū!! creator Furudate Haruichi was a middle blocker in Junior High school and High School. His favorite players are Aoyama Shigeru  and Yoneyama Yuta. He was passionate about playing volleyball but ultimately chose to follow his other passion - drawing. </p>
         <button class="btn reload-info" onclick="location.reload()"><i class="fas fa-redo"></i> Reload</button>`;
-    };
+    }
 };
 
 // Karasuno Panel to load player cards // 
