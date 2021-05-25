@@ -10,7 +10,7 @@ body {
     background-color: whitesmoke;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: visible;
     color: darkslategray;
     margin: 0;
 }
