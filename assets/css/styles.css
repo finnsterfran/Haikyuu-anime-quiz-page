@@ -380,7 +380,7 @@ h4 {
 
     .panel.active .info-text,
     .panel.active .info {
-        padding: 20px;
+        padding: 5px 20px;
         font-size: 0.6rem;
     }
 
