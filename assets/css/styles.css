@@ -216,7 +216,7 @@ h4 {
 }
 
 /* MEDIA QUERY */
-@media only screen and (min-width: 1000px) and (max-width: 1280px) {
+@media only screen and (min-width: 940px) and (max-width: 1280px) {
     .panel.active .card-container {
         margin: 0 auto;
    }
