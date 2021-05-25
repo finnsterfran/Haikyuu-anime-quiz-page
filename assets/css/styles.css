@@ -368,9 +368,14 @@ h4 {
         height: 100%;
     }
 
+    #funfact {
+        margin: auto;
+        padding: 20px;
+    }
+
     .panel.active .info-text,
     .panel.active .info {
-        padding: 10px;      
+        padding: 20px;      
     }
 
     .panel.active h3.information {
@@ -392,7 +397,7 @@ h4 {
     .panel.active p {
         margin: 10px auto;
         padding: 10px 0 5px;
-        line-height: 1.1;
+        line-height: 1.2;
         font-weight: 500;
         font-size: 0.8rem;
         text-align: justify;
