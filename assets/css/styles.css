@@ -283,8 +283,13 @@ h4 {
     }
 
     .panel.active p {
-        padding: 10px 5px 10px;
         line-height: 1.8;
+        padding: 20px 10px;
+    }
+
+    #funfact {
+        margin: auto;
+        padding: 65px 50px 10px;
     }
 
     .panel.active > .teamTextBox {
