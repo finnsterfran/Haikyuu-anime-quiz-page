@@ -318,32 +318,34 @@ h4 {
         flex-direction: column;
         height: 100%;
         width: auto;
-        margin: 40px 50px;
-        padding: 60px 30px;
+        margin: 30px;
+        padding: 10px;
     }
 
     .card-container > img {
         float: left;
-        margin-left: 100px;
+       
+ 
     }
 
     .card-container > h4, 
     .card-container > h5 {
         float: right;
-        margin-right: 100px;
+
     }
 
     .card-container > h4 {
         font-weight: bold;
         padding-top: 40px;
         font-size: 1.4rem;
-        width: 280px;
+        width: 260px;
+
     }
 
     .card-container > h5 {
         font-size: 1rem;
         font-weight: 500;
-        width: 280px;
+        width: 250px;
     }
 }
 
@@ -361,7 +363,7 @@ h4 {
     }
     .panel.active .card-container {
         height: 100%;
-        width: 50%;
+        width: 60%;
         margin: auto;
         padding: 0;
         text-align: center;
@@ -377,14 +379,14 @@ h4 {
         padding-top: 0;
         font-size: 1.4rem;
         width: 280px;
-        margin: 5px auto;
+        margin: 20px auto;
     }
 
     .card-container > h5 {
         font-size: 1rem;
         font-weight: 500;
         width: 280px;
-        margin: 3px auto;
+        margin: 5px auto;
     }
     .panel.active > .teamTextBox {
         height: 60%;
