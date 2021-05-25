@@ -318,16 +318,19 @@ h4 {
         flex-direction: column;
         height: 100%;
         width: auto;
-        margin: 30px 15px;
+        margin: 40px 50px;
+        padding: 60px 30px;
     }
 
     .card-container > img {
         float: left;
+        margin-left: 100px;
     }
 
     .card-container > h4, 
     .card-container > h5 {
         float: right;
+        margin-right: 100px;
     }
 
     .card-container > h4 {
@@ -358,7 +361,7 @@ h4 {
     }
     .panel.active .card-container {
         height: 100%;
-        width: 60%;
+        width: 50%;
         margin: auto;
         padding: 0;
         text-align: center;
