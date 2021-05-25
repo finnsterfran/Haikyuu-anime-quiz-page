@@ -415,10 +415,10 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 680px) {
+@media only screen and (min-width: 320px) and (max-width: 680px) (orientation: portrait) {
 
     body {
-        overflow: visible;
+        overflow: auto;
     }
 
     header > h1 {
@@ -523,13 +523,13 @@ h4 {
     }
 
     .card-container > h4 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 5px;
         font-weight: bolder;
     }
 
     .card-container > h5 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: normal;
     }
 
@@ -551,7 +551,6 @@ h4 {
     }
 
     .copyright h3 {
-        margin: 5px auto;
-        font-size: 0.7rem;
+        visibility: hidden;
     }
 }
