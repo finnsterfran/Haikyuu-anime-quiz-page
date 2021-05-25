@@ -408,7 +408,7 @@ h4 {
     .panel.active > .teamTextBox > p {
         margin: 10px auto;
         padding: 0;
-        line-height: 1.5;
+        line-height: 1.2;
     }
     .panel.active .btn {
         height: 80px;
@@ -418,7 +418,8 @@ h4 {
 @media only screen and (min-width: 320px) and (max-width: 680px) {
 
     body {
-        overflow: scroll;
+        overflow: visible;
+
     }
 
     header > h1 {
@@ -433,14 +434,14 @@ h4 {
     .container {
         flex-direction: column;
         padding: 10px;
-        height: 100vh;
-        width: 90%;
+        height: 100%;
+        width: 100%;
         margin: auto;      
     }
 
     .panel {
         margin: 5px;
-        height: 10px;
+        height: 25px;
     }
 
     .panel h3 {
@@ -448,13 +449,13 @@ h4 {
         writing-mode: horizontal-tb;
         text-orientation: sideways;
         text-align: center;
-        padding: 15px;
+        padding: 0;
         width: 180px;
         height: 20px;
     }
 
     .panel.active {
-        height: 150%;
+        height: 100%;
         flex: 7;
     }
 
@@ -467,14 +468,15 @@ h4 {
     .panel.active .info-text,
     .panel.active .info {
         padding: 25px 40px auto;
-        font-size: 1rem;
+        font-size: 0.7rem;
+        margin-bottom: 70px;
     }
 
     .panel.active h3.information {
         padding-top: 20px;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
         visibility: visible;
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     .panel.active h3 {
@@ -491,7 +493,7 @@ h4 {
         padding: 10px 0 5px;
         line-height: 1.2;
         font-weight: 500;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         text-align: justify;
     }
 
@@ -505,16 +507,18 @@ h4 {
     }
 
     .panel.active .card-container {
-        
+        height: 100%;
         width: 90%;
-        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 70px;
         align-items: center;
+        padding: 30px;
     }
 
     img {
         height: 200px;
         width: 200px;
-        margin-top: 30px;
+        margin-top: 5px;
         margin-bottom: 10px;
         padding: 0;
     }
@@ -547,7 +551,8 @@ h4 {
         margin: auto;
     }
 
-    .copyright {
-        margin: 10px auto;
+    .copyright h3 {
+        margin: 5px auto;
+        font-size: 0.7rem;
     }
 }
