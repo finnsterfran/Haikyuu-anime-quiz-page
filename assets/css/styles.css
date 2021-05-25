@@ -345,7 +345,7 @@ h4 {
 @media only screen and (min-width: 320px) and (max-width: 650px) and (orientation: portrait) {
 
     body {
-        overflow: visible;
+        overflow: scroll;
     }
 
     header > h1 {
@@ -380,7 +380,8 @@ h4 {
 
     .panel.active .info-text,
     .panel.active .info {
-        padding: 20px;      
+        padding: 20px;
+        font-size: 0.6rem;
     }
 
     .panel.active h3.information {
