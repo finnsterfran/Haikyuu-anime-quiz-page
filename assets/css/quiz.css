@@ -69,11 +69,11 @@ h1>a {
 }
 
 .correct {
-    background-color: #5AA897;
+    background-color: #99F3BD;
 }
 
 .incorrect {
-    background-color: #AA2B1D;
+    background-color: #FFB0B0;
 }
 
 /* Counter */
