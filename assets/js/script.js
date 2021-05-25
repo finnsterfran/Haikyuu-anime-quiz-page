@@ -224,7 +224,7 @@ nekomaBtn.onclick = function buttonClicked() {
     nekoclicks += 1;
     if (nekoclicks === nekomahtml.length + 1) {
         nekoTextBox.classList.add('teamTextBox');
-        nekoTextBox.innerHTML = `<p>Nekoma is a high school located in Tokyo Prefecture, and are a long time rival of Karasuno. In the old days, under the guidance of Coach Nekomata and the old Karasuno Coach Ukai Ikkei, when these two teams would meet up in official matches, it was known as Battle of the Dumpster. Nekoma is famous for their all-round defense, of which Karasuno has never been able to penetrate.</p>
+        nekoTextBox.innerHTML = `<p>Nekoma is a high school located in Tokyo Prefecture, and are a long time rival of Karasuno. In the old days, under the guidance of Coach Nekomata and the old Karasuno Coach Ukai Ikkei, when these two teams would meet up in official matches, it was known as Battle of the Dumpster.</p>
         <a href="./nekoma.html" class="pageBtn" style="background-color: #EC4646; color: black;">Nekoma Quiz</a>`;
         resetNekoma();
     }
