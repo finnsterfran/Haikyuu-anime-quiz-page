@@ -83,7 +83,7 @@
 
     ![Tablet](assets/images/readme-img/tablet-ipad.PNG)
 
-3. Mobile - 
+3. Mobile - More testing was done on mobile devices because of the various viewport sizes depending on brand of phone
     * Samsung Note 8
 
     ![Mobile](assets/images/readme-img/mobile-samsungnote8.jpeg) ![Mobile](assets/images/readme-img/mobile-samsungnote8-quiz.jpeg)
