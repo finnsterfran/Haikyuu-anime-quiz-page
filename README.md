@@ -1,6 +1,8 @@
 MILESTONE PROJECT TWO - USER INTERACTIVE 
 # Haikyū! - anime series player cards and quiz
 
+![Responsive-screens](assets/images/readme-img/responsive-screens.png)
+
 This project features a website based on the manga and anime series Haikyū!, featuring the teams that are important to the plot of the story. Interacting with the panels on the homepage will bring the user to information about the teams, starting line-up player cards and team quiz. 
 
 This project can be viewed live here : [Haikyū!](https://finnsterfran.github.io/Haikyuu-anime-quiz-page/)
