@@ -52,7 +52,7 @@ header h2 {
     cursor: pointer;
 }
 
-.btn { 
+.btn {
     margin: 0;
     opacity: 0;
 }
@@ -70,7 +70,7 @@ header h2 {
     background: rgba(255, 255, 255, 0.6)
 }
 
-.panel > .information {
+.panel>.information {
     background: none;
 }
 
@@ -144,17 +144,17 @@ header h2 {
     color: darkslateblue;
 }
 
-.panel.active > .teamTextBox {
+.panel.active>.teamTextBox {
     opacity: 0.8;
     border-radius: 10px;
     height: 70%;
     width: 90%;
     margin: 0 auto;
     padding-top: 25px;
-    background-color: whitesmoke;    
+    background-color: whitesmoke;
 }
 
-.panel.active > .teamTextBox > p {
+.panel.active>.teamTextBox>p {
     margin-top: 15px;
 }
 
@@ -192,7 +192,7 @@ img {
     padding: 20px;
 }
 
-h4, 
+h4,
 h5 {
     margin: 20px 40px;
     display: block;
@@ -218,32 +218,36 @@ h4 {
 /* MEDIA QUERY */
 
 /*Viewport 1024px to 1280px */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1280px) and (orientation: portrait) {
+@media only screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: portrait) {
     .panel.active .card-container {
         margin: 0 auto;
-   }
-   .panel.active > .teamTextBox {
-       padding-top: 5px;
-   }
-   .panel.active p {
-       padding: 10px;
-   }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1280px) and (orientation: landscape) {
-    .panel.active .card-container {
-        margin: 10px auto;
     }
 
-    .panel.active .text-box{
+    .panel.active>.teamTextBox {
+        padding-top: 5px;
+    }
+
+    .panel.active p {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
+    .panel.active .card-container {
+        margin: 40px auto;
+    }
+
+    .panel.active .text-box {
         height: 70%;
     }
+
     .panel.active p {
         padding: 0;
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-
+/* Viewport 768px to 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
     header h1 {
         font-size: 3.5rem;
     }
@@ -260,7 +264,7 @@ h4 {
         width: 100%;
         margin: auto;
     }
-    
+
     .panel h3 {
         font-size: 1.7rem;
         padding: 5px;
@@ -275,7 +279,7 @@ h4 {
     .panel {
         margin: 5px;
         height: 10px;
-    }    
+    }
 
     .pageBtn {
         margin: 10px auto;
@@ -292,7 +296,7 @@ h4 {
         padding-top: 40px;
         padding-bottom: 0;
     }
-    
+
     .panel.active h3 {
         padding: 10px;
         margin: auto;
@@ -314,7 +318,7 @@ h4 {
         padding: 65px 50px 10px;
     }
 
-    .panel.active > .teamTextBox {
+    .panel.active>.teamTextBox {
         height: 70%;
         width: 90%;
         margin: 40px;
@@ -322,7 +326,7 @@ h4 {
         padding-top: 10px;
     }
 
-    .panel.actve > .teamTextBox > p {
+    .panel.actve>.teamTextBox>p {
         margin: auto;
         padding: 10px 0;
     }
@@ -333,48 +337,51 @@ h4 {
         height: 100%;
         width: auto;
         margin: 30px;
-        padding: 50px;
+        padding: 30px;
     }
 
-    .card-container > img {
+    .card-container>img {
         float: left;
-       
- 
     }
 
-    .card-container > h4, 
-    .card-container > h5 {
+    .card-container>h4,
+    .card-container>h5 {
         float: right;
-
     }
 
-    .card-container > h4 {
+    .card-container>h4 {
         font-weight: bold;
-        padding-top: 40px;
+        padding-top: 20px;
         font-size: 1.4rem;
-        width: 260px;
-
+        line-height: 1.2;
+        width: 200px;
     }
 
-    .card-container > h5 {
+    .card-container>h5 {
         font-size: 1rem;
         font-weight: 500;
-        width: 250px;
+        width: 220px;
+        line-height: 1;
+        padding: 3px;
+        margin: 5px 30px;
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .container {
         height: 100%;
     }
+
     .panel.active .info-text,
     .panel.active .info {
         padding: 0;
         margin: auto;
     }
+
     #funfact {
         padding: 0;
     }
+
     .panel.active .card-container {
         height: 100%;
         width: 60%;
@@ -382,13 +389,14 @@ h4 {
         padding: 0;
         text-align: center;
     }
-    .card-container > img {
+
+    .card-container>img {
         height: 200px;
         width: 200px;
         padding-bottom: 0;
     }
 
-    .card-container > h4 {
+    .card-container>h4 {
         font-weight: bold;
         padding-top: 0;
         font-size: 1.4rem;
@@ -396,36 +404,39 @@ h4 {
         margin: 20px auto;
     }
 
-    .card-container > h5 {
+    .card-container>h5 {
         font-size: 1rem;
         font-weight: 500;
         width: 280px;
         margin: 5px auto;
     }
-    .panel.active > .teamTextBox {
+
+    .panel.active>.teamTextBox {
         height: 60%;
     }
-    .panel.active > .teamTextBox > p {
+
+    .panel.active>.teamTextBox>p {
         margin: 10px auto;
         padding: 0;
         line-height: 1.2;
     }
+
     .panel.active .btn {
         height: 80px;
     }
 }
 
+/* Viewport from 320px to 680px */
 @media only screen and (min-width: 320px) and (max-width: 680px) {
-
     body {
         overflow: visible;
     }
 
-    header > h1 {
+    header>h1 {
         font-size: 2.2rem;
     }
 
-    header > h2 {
+    header>h2 {
         font-size: 0.8rem;
         padding: 5px 10px;
     }
@@ -435,7 +446,7 @@ h4 {
         padding: 10px;
         height: 100%;
         width: 100%;
-        margin: auto;      
+        margin: auto;
     }
 
     .panel {
@@ -466,7 +477,7 @@ h4 {
 
     .panel.active .info-text,
     .panel.active .info {
-        padding: 25px 40px auto;
+        padding: 25px 5px;
         font-size: 0.7rem;
         margin-bottom: 70px;
     }
@@ -496,12 +507,12 @@ h4 {
         text-align: center;
     }
 
-    .panel.active > .teamTextBox {
-        margin: 20px auto;
+    .panel.active>.teamTextBox {
+        margin: 15px auto;
     }
 
-    .panel.active > .teamTextBox > p {
-        margin: 30px auto;
+    .panel.active>.teamTextBox>p {
+        margin: 10px auto;
         font-weight: bolder;
     }
 
@@ -522,19 +533,19 @@ h4 {
         padding: 0;
     }
 
-    .card-container > h4 {
+    .card-container>h4 {
         font-size: 1rem;
         padding: 5px;
         font-weight: bolder;
     }
 
-    .card-container > h5 {
+    .card-container>h5 {
         font-size: 0.8rem;
         font-weight: normal;
     }
 
-    .card-container > h4,
-    .card-container > h5 {
+    .card-container>h4,
+    .card-container>h5 {
         margin: 0;
         display: block;
         line-height: 1.5;
@@ -550,7 +561,4 @@ h4 {
         margin: auto;
     }
 
-    .copyright h3 {
-        visibility: hidden;
-    }
 }
