@@ -1,4 +1,4 @@
-#Testing 
+# Testing 
 
 ## HTML - Codes were put through [W3Validator](https://validator.w3.org/)
 * index.html - Document checking completed. No errors or warning to show.
@@ -56,12 +56,16 @@
     * The individual panels on the homepages opens to show cards of the players from each team.
     * The cards showed the images of the players and their names.
 
-## Manual Testing on Published website
+3. Responsiveness and workability of the website:
+    * Panels are aligned correctly, quizpage buttons are accessible upon completion of browsing of player cards.
+    * Quiz pages load as they should.
+
+## Functionality testing on Live-site
 * Homepage
-    * Homepage load as it should. 
+    * Homepage loads as it should. 
     * Panels open and close on clicking.
     * Cards with panel load on clicking of button.
-    * Pages Button within panel opens to team quiz pages.
+    * Page-buttons within panel opens to team quiz pages.
     * Reload buttons reload page.
 
 * Quizpage 
@@ -74,7 +78,15 @@
     * Clicking reload button reloads the quiz.
     * Clicking home-icon button brings user back to homepage.
 
-## Live Testing - Laptop, Tablet, Mobile
+## Responsiveness Live Testing - Laptop, Tablet, Mobile 
+#### Website was put through [Am I Responsive?](http://ami.responsivedesign.is/) 
+#### Homepage:
+
+![Responsive-screens](assets/images/readme-img/responsive-screens.png)
+
+#### Quizpage:
+![Responsivescreens-quizpage](assets/images/readme-img/responsivescreens-quizpage.png)
+
 1. Laptop - Apple air 13inch 
 
     ![Latop](assets/images/readme-img/appleairlaptop13inch.JPG)
@@ -91,3 +103,13 @@
     * Apple iPhone 7 
 
     ![Mobile](assets/images/readme-img/haikyuu-mobile-iPhone7.jpeg) ![Mobile](assets/images/readme-img/haikyuu-mobile-iphone7-card.jpeg)
+
+    * Apple iPhone 11 
+
+    ![Mobile](assets/images/readme-img/mobile-iphone11.jpeg)
+
+    * Apple iPhone SE(2020)
+
+    ![Mobile](assets/images/readme-img/mobile-iphonese.PNG) ![Mobile](assets/images/readme-img/mobile-iphonese-quiz.png)
+
+

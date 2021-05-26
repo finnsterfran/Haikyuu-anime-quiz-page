@@ -1,38 +1,9 @@
 MILESTONE PROJECT TWO - USER INTERACTIVE 
 # Haikyū! - anime series player cards and quiz
 
-![Responsive-screens](assets/images/readme-img/responsive-screens.png)
-![Responsivescreens-quizpage](assets/images/readme-img/responsivescreens-quizpage.png)
-
-###### This project features a website based on the manga and anime series Haikyū!, featuring the teams that are important to the plot of the story. Interacting with the panels on the homepage will bring the user to information about the teams, starting line-up player cards and team quiz. 
+This project features a website based on the manga and anime series Haikyū!, featuring the teams that are important to the plot of the story. Interacting with the panels on the homepage will bring the user to information about the teams, starting line-up player cards and team quiz. 
 
 This project can be viewed live here : [Haikyū!](https://finnsterfran.github.io/Haikyuu-anime-quiz-page/)
-# Table of Content 
-
-1.  [UX](#UX)
-    *   [User Story](#UserStory)
-    *   [Stratergy](#Strategy)
-    *   [Scope](#Scope)
-    *   [Structure](#Structure)
-    *   [Skeleton](#Skeleton)
-        * [Wireframes](#Wireframes)
-    *   [Surface](#Surface)
-        * [Colors](##Colors)
-        * [Typography](##Typography)
-
-2.  [Features](#Features)
-    *   [Existing Features](#ExistingFeatures)
-    *   [Features in the future](#Featuresinthefuture)
-
-3.  [Technologies](#Technologies)
-    *   [Languages](#Languages)
-    *   [Integration](#Integrations)
-    *   [Workspace](#)
-
-    
-
-
-
 
 # UX
 
@@ -44,7 +15,7 @@ This project can be viewed live here : [Haikyū!](https://finnsterfran.github.io
 
 ### These goals are accomplished via: 
 * Player cards in the panel feature an image, name, position and year of each starting line-up player for the teams.
-* A three-choice multiple question quiz for each team.
+* A 10-question quiz for each team. 
 
 # 1. Strategy
 * The target users to this website are fans or would-be fans. 
@@ -96,7 +67,6 @@ This project can be viewed live here : [Haikyū!](https://finnsterfran.github.io
     ![Mobile - quizpage](assets/images/readme-img/wireframe-mobile-quiz.png)
 
 
-
 # 5. Surface
 
 ## Colors:
@@ -127,8 +97,6 @@ This project can be viewed live here : [Haikyū!](https://finnsterfran.github.io
 
 ## Typography:
 ### "Courier New" font family was used for the entire website.
-
-#
 
 # Features
 
@@ -167,12 +135,49 @@ This project can be viewed live here : [Haikyū!](https://finnsterfran.github.io
     * JavaScript course taken here to learn how to make a quiz
 
 # Testing 
+* Testing documentation can be found here : [Testing](TESTING.md)
 
+# Deployment 
+The deployment process of getting this project on GitHub Pages:
+1. The HTML, CSS and JavaScript codes were written on Gitpod, using Code Institute's project template.
+    * [Gitpod](https://gitpod.io/) is an online integrated development environment (IDE)
+2. I made a new repository on my [GitHub](https://github.com/) account:
+    * Click 'New'
+    * Choose respository template - Code-Institute-Org/gitpod-full-template
+    * Typed in respository's name
+    * Clicked on Gitpod button to be transported to a new workspace there
+3. Getting codes up to GitHub respository:
+    * Saved codes
+    * on command line: git add .
+    * on command line: git commit -m "commitment message here"
+    * on command line: git push 
+4. To publish the project to GitHubPages:
+    * Clicked on settings in the respository page in GitHub 
+    * Under Options to the left, scrolled down to Pages
+    * Under Source, I chose Branch: Master and Folder: /(root)
+    * Page took awhile to be published
+5. This project may be downloaded or cloned:
+    * On respository page, select button titled Code
+    * Drop down menu will give the option of Clone, Open with GitHub Desktop or Download Zip
 
+# Problem Encountered 
+1. Wording on the closed panels were not very readable as they clashed with the images. I tried to do a backdrop-filter: blur(?px) which worked fine but threw an error in the validator.
+    * I solved this by changing this to a rgba background for wording.
+2. Clicks to get the panel text and cards shared a global clicks variable which caused a collective count of clicks instead of listening for number of clicks in the functions.
+    * I solved this by making individual clicks variables for the individual events.
+3. Responsivenesss displayed fine when the website was put through the responsive tester but Live testing hit several snags of layout distortion.
+    * I added orientations to the breakpoints.
 
+# Credits 
 
+## Code 
+* Brad Traversy's course on udemy on making expanding panels - adapted codes to my project's panels.
+* James Quick's course on udemy on making a quiz app - adapted codes to my quiz.
 
-# COMMITS 
+# Acknowledgement 
+* My mentor Excellence Illesanmi for his mentoring from project start to finish line. 
+
+# Commits 
 #### Commit May 12, 2021
 1. Initialized the project 
 
