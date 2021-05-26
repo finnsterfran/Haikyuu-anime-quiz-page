@@ -222,4 +222,40 @@ The deployment process of getting this project on GitHub Pages:
 2. Make slight changes to styles.css media-query for max-width: 768px
 3. Make slight changes for media query max-width: 320px
 4. Add images for ReadMe.md
+5. Change clicks variables for each team in script.js. change class from social to copyright
+6. Add missing = sign in script.js
+7. Change first letter of png files for ReadMe.md to lowercase.
+
+#### Commits May 25, 2021 
+1. Add favicon to all html pages. Change color for incorrect answer to #FFB0B0 for better contrast when playing nekomaquiz
+2. Fix problems loading js on published website by adding . in front of the path.\
+3. Fix alignment of paragraphs for mobile view
+4. Fix alignment of paragraphs for tablet view
+5. Fix color for button that seemed to have disappeared in published view
+6. Make changes to screen devices sizing because the published website does not appear in proper alignment on some small devices
+7. Adjust responsive sizing, does not seem to register breakpoint for iPad
+8. More adjustment to responsibe sizing as gitpod live-server seems to differ from published website
+9. More minor responsive adjustments
+10. More minor responsibe adjustments
+11. Change font-size in infotext to make it fit in screensize on iphone second
+12. Change padding on infotext styles.css
+13. Change paragraph text for nekoma in script.js
+14. Documentation update in TESTING.md. Minor changes to styles.css for mediaquery orientations
+15. Test - locking orientation of device screen (this does not work)
+16. Add mediaquery for landscape view on tablet
+17. Make adjustments to landscape view on tablet
+18. More adjustments to landscape view on tablet
+19. Fix responsiveness to the smallest viewport media query
+20. Adjust panel size to fit the wordings for viewport 320px
+21. Font-size change for funfact in mobile size
+22. change font-size for players'cards mobile screensize
+
+#### Commits May 26, 2021
+1. Remove orientation: portrait for min-max: 320px 
+2. Update and add images to TESTING.md and margin change for 320px screen
+3. Minor adjustments to margin for teamTextBox in styles.css - aobajosai quiz button doesn't show properly
+4. Make slight adjustment to teamTextBox- margin change
+5. Update README.md and TESTING.md. Resize some images for TESTING.md
+6. Final commit. Update README.md
+
 
