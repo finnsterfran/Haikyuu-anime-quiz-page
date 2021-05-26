@@ -12,10 +12,10 @@
 .quiz-container {
     display: flex;
     width: 60%;
-    height: 70vh;
+    height: 65vh;
     align-items: center;
     justify-content: center;
-    margin: 40px auto;
+    margin: 25px auto;
     position: relative;
     border-radius: 20px;
 }
