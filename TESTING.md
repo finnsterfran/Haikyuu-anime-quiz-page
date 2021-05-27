@@ -25,6 +25,7 @@
 
 2. [JSHint](https://jshint.com/)
     * script.js - Script threw 51 warnings in relation to discovery of ES6 syntax in codes (e.g. arrow function, const). 
+    * Errors: No errors
     * karasuno.js, nekoma.js, datekogyo.js, aobajosai.js, shiratorizawa.js, fukurodani.js - Scripts threw 33 warngins in relation to discovery of E26 syntax in codes (eg. arrow function. temperal literal, let, const)
 
 ## Lighthouse - Developer Tool in Chrome

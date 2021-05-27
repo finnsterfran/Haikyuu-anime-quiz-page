@@ -259,5 +259,7 @@ The deployment process of getting this project on GitHub Pages:
 4. Make slight adjustment to teamTextBox- margin change
 5. Update README.md and TESTING.md. Resize some images for TESTING.md
 6. Final commit. Update README.md
-
+7. Minor alignment fix
+8. Add image to README.md
+9. Add wide-screen breakpoint styles.css and quiz.css
 

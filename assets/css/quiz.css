@@ -141,18 +141,49 @@ h1>a {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 1040px) and (max-width: 1280px) {
+@media only screen and (min-width: 1040px){
+    .counter-name {
+        font-size: 1.8rem;
+    }
+
+    .counter-text {
+        font-size: 1.8rem;
+    }
+
     #question {
         font-size: 1.6rem;
         padding: 10px 10px 0 10px;
     }
 
+    .quiz-box {
+        padding: 20px;
+    }
+
     .quiz-container {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
+        height: 70vh;
+    }
+
+    #question {
+        margin: 10px 50px;
+        font-size: 1.5rem;
+    }
+
+    .choice-container {
+        width: 90%;
+    }
+
+    .choice {
+        padding: 1rem;
     }
 
     .score_message {
-        margin: 40px;
+        margin: 20px;
+        font-size: 1.5rem;
+    }
+    
+    .home-btn {
+        font-size: 3rem;
     }
 }
 
