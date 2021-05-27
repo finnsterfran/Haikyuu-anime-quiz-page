@@ -233,10 +233,10 @@ h4 {
     .panel.active .card-container {
         display: inline-block;
         flex-direction: column;
-        height: 90%;
+        height: 80%;
         width: 80%;
         margin: 0 40px;
-        padding: 20px;
+        padding: 20px 30px;
     }
 
     .panel.active .text-box {
@@ -331,16 +331,16 @@ h4 {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 5px auto;
+        margin: auto;
     }
 
     .panel.active .card-container {
         display: inline-block;
         flex-direction: column;
-        height: 90%;
+        height: 75%;
         width: 95%;
         margin: 0;
-        padding: 20px;
+        padding: 15px 70px;
     }
 
     .panel.active .btn {
@@ -360,6 +360,7 @@ h4 {
         float: left;
         height: 250px;
         width: 250px;
+        margin: ;
     }
 
     .card-container>h4,
