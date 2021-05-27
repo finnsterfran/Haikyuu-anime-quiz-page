@@ -262,4 +262,4 @@ The deployment process of getting this project on GitHub Pages:
 7. Minor alignment fix
 8. Add image to README.md
 9. Add wide-screen breakpoint styles.css and quiz.css
-
+10. Last minute tweaking of viewport breakpoint for screen larger than 1280px

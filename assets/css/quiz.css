@@ -141,7 +141,14 @@ h1>a {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 1040px){
+@media only screen and (min-width: 1280px) {
+    #question {
+        font-size: 2rem;
+        margin: 0 50px 10px 50px;
+    }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1279px) and (orientation: landscape) {
     .counter-name {
         font-size: 1.8rem;
     }
@@ -166,6 +173,7 @@ h1>a {
 
     #question {
         margin: 10px 50px;
+        padding-bottom: 10px;
         font-size: 1.5rem;
     }
 
@@ -181,7 +189,7 @@ h1>a {
         margin: 20px;
         font-size: 1.5rem;
     }
-    
+
     .home-btn {
         font-size: 3rem;
     }
