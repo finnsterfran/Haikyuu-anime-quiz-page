@@ -280,3 +280,29 @@ h1>a {
         font-size: 1.5rem;
     }
 }
+
+@media only screen and (min-width: 1280px) {
+    #question {
+        font-size: 1.6rem;
+        padding-top: 1.5rem;
+        padding-left: 2rem;
+        padding-bottom: 0;
+    }
+
+    #question-counter, #score {
+        font-size: 1.6rem;
+    }
+
+    #counters {
+        padding: 0;
+    }
+
+    .choice {
+        padding: 0.7rem;
+    }
+
+    .score_message {
+        margin: 0;
+    }
+
+}

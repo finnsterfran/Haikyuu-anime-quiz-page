@@ -52,7 +52,7 @@ const nekomaData = [
         question: "What is the first sentence of Nekoma's chant before their matches?",
         choice1: "He who climbs the ladder must begin at the bottom",
         choice2: "We're like blood in our veins",
-        choice3: "Opportunities present themsevles to those who have prepared for it",
+        choice3: "Opportunities present themselves to those who have prepared for it",
         answer: 2,
     },
     {
